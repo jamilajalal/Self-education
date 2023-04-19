@@ -1,0 +1,66 @@
+
+.modalBackground .footer{
+    top:0;
+    right: 0;
+    background-color: #fff;
+    width: 300px;
+    height: 100px;
+}
+.modalContainer{
+    position:absolute;
+    z-index: 3;
+
+    background-color:#fff;
+    width: 300px;
+    height: 350px;
+}
+.modalContainer hr{
+    position: relative;
+    top: 10px;
+}
+
+.first-tittle,.second-tittle,.third-tittle,.footer{
+
+   width: 300px;
+   
+}
+.first-tittle .dolar h1 ,.second-tittle .lorem h1,.third-tittle .simply h1,.footer h1{
+    font-size: 14px;
+    width: 150px;
+}
+.modalContainer img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.first-tittle,.second-tittle,.third-tittle{
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+
+.modalContainer .modal-footer{
+    height:100px;
+  background-color:#fff;
+  padding-bottom:30px ;
+  display: flex;
+  flex-direction: column;
+}
+.modalContainer .modal-footer h1{
+    font-size: 16px;
+}
+.modal-btn button{
+    padding: 10px;
+   margin-right: 5px;
+    border-radius: 25px;
+    border: transparent;
+    color: #fff;
+}
+
+.first-tittle p,.second-tittle p,.third-tittle p{
+    color: #000;
+    font-size: 12px;
+   
+}

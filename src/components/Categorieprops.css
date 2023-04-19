@@ -1,18 +1,16 @@
-
-
-
 .details{
-    display: flex;
-    flex-direction: column; 
-    position: absolute;
-    z-index: 2;
-    height: 25vh;
-    width: 240px;
-    color: #fff;
-    justify-content: center;
-    text-align: center;
- 
+  display: flex;
+  flex-direction: column; 
+  position: absolute;
+  z-index: 2;
+  height: 25vh;
+  width: 240px;
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+
 }
+
 .details h5{
   font-size: 18px;
 }

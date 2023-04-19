@@ -1,0 +1,83 @@
+
+.enjoy{
+    margin-top:50px;
+    max-width:1530px;
+     height: 20vh;
+     background-image: url(https://creativelayers.net/themes/edumy-html/images/background/3.jpg);
+     background-attachment: fixed;
+     background-size: cover;
+     min-height: 400px;
+     background-position: center;
+  
+ }
+ .enjoy::before{
+    content: "";
+    width: 1530px;
+    height: 400px;
+    background-image: linear-gradient( 135deg, rgb(8, 27, 136) 0%,rgb(36, 65, 231) 100%);
+    opacity: 0.8;
+    position: absolute;
+    }
+    .enjoy-left-side{
+        flex-basis: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .enjoy-left-side h1,p,button{
+        color: #fff;
+    z-index: 2;}
+    
+    .enjoy-right-side{
+     padding-top: 50px;
+     padding-left: 250px;
+        flex: 1;
+    }
+    .enjoy-right-side img{
+        position: absolute;
+        z-index: 1;
+    }
+    .enjoy-left-side button{
+        z-index: 2;
+        padding: 1px 6px ;
+        border-radius: 15px;
+       background-color: transparent;
+       border: 0.5px solid #fff;
+        width: 210px;
+        margin: 0 30px 0 0;
+        transition:all .5s ease;
+       position:relative;
+        left:10%;
+    }
+    .enjoy-left-side button:hover{
+        border: none;
+        background-color: blue;
+       
+    }
+    @media(max-width:998px){
+        .enjoy-right-side {
+padding-left: 100px;
+        }
+
+    }
+    @media(max-width:680px){
+        .enjoy-right-side img{
+            display: none;
+        }
+       
+    .enjoy{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      position: relative;
+     
+    }
+    .enjoy-left-side{
+        position: relative;
+        top: 25%;
+    }
+       
+    }

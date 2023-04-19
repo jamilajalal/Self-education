@@ -2,7 +2,9 @@
   position: relative;
 top: 0;
  }
- 
+ .header-container{
+  max-width:1530px;
+ }
  
  .fourImages{
   display: flex;
@@ -196,9 +198,12 @@ left:20%;
    left:25%;
   }
   @media(max-width:500px){
-    .image1.imgs h1{
+    .image1 h1,.image3 h1{
       font-size:16px;
-      left:10%;
+     left:10%;
+    }
+    .image2 h1{
+      font-size:18px;
     }
     .selfP p{
       left:15%;

@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+
 .h1p{
 padding-top: 90px;
  padding-left: 30%;   
@@ -17,11 +18,11 @@ padding-top: 90px;
 
 
 .categoriesMain{
-    width:100%;
-    height: 100vh;
+    max-width:1530px;
     background-color: #fff;
     position: relative;
 padding-left:80px;
+
 
  
 }
@@ -42,6 +43,11 @@ padding-left:80px;
     color: #fff;
    
 
+}
+@media(max-width:992px){
+    .categoriesMain{
+   
+    }
 }
 @media(max-width:778px){
     .categoriesMain  button{

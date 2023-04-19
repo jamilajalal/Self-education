@@ -1,0 +1,26 @@
+.topcourses-container{
+    max-width: 1530px;
+    padding: 60px 0 30px;
+}
+
+.topcourses{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.topcourses a{
+    text-decoration: none;
+    color:#7D7D7D;
+    font-size: 15px;
+    padding:30px  20px ;
+    
+}
+.topcourses a:hover{
+    color:#000
+}
+.top-little-container{
+    width: 1530px;
+    padding:20px 220px;
+}

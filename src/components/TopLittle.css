@@ -1,0 +1,45 @@
+.umumi{
+    width:250px;
+    margin: 10px;
+}
+.card-title{
+    font-size: 15px;
+    color:#7E7E7E;
+}
+.list-inline-item{
+    padding: 10px;
+}
+.lastsection{
+    display: flex;
+    justify-content: space-around;
+}
+.left-last a{
+    text-decoration: none;
+    color: #555555;
+    padding: 10px;
+}
+.right-last{
+    color:#C75533;
+}
+.umumi:hover{
+cursor: pointer;
+}
+.tagIn{
+    position:absolute;
+    z-index: 3;
+transform: scale(0);
+transition: transform .7s ease;
+}
+.tagIn .tag{
+    background-color: #C75533;
+    color: #fff;
+    width: 120px;
+}
+.tagIn .in{
+    color: #fff;
+    font-size: 14px;
+  margin: 40px;
+}
+.aktiv{
+    transform: scale(1);
+}

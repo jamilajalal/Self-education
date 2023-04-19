@@ -13,7 +13,7 @@ import Button from './Button'
 
 const Header = () => {
   return (
-    <> 
+    <div className='header-container'> 
    
  				
 
@@ -119,7 +119,7 @@ const Header = () => {
 
 
 
-  </>
+  </div>
   )
 }
 

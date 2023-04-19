@@ -1,0 +1,21 @@
+.footerprops a{
+    text-decoration: none;
+    color: #9e9e9e;
+    font-size: 13px;
+
+}
+.footerprops h1{
+    color: #fff;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.footerprops li:hover{
+    transition: transform .8s ease;
+    transform:translateX(15px);
+}
+.propsfooterbutton button:hover{
+    transition: all .8s ease;
+    background-color: rgb(95, 95, 243);
+
+}

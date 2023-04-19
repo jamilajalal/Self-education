@@ -1,0 +1,54 @@
+.latest{
+    max-width: 1210px;
+    padding-top: 90px;
+}
+.latest1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.latest1 h1{
+    font-size: 26px;
+}
+.latest1 p{
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+.elaveimg img{
+    width: 250px;
+    padding-left: 20px;
+  
+}
+.latestelave img{
+    padding-left:60px;
+
+    height: 338px;
+    max-width: 500px;
+   
+}
+.latestelave img ,.elaveimg img:hover{
+    transform: scale(0.9)
+
+}
+
+
+.latestelave,.elaveimg{
+    padding-bottom: 70px;
+
+}
+.elaveimg img{
+    transition:all .8s ease;
+}
+
+.latest2 h4>a{
+text-decoration: none;
+color: #C75533;
+
+}
+.latest2 h4{
+    font-size: 17px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

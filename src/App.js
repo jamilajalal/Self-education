@@ -6,7 +6,13 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Categories from './components/Categories';
 import Enhance from './components/Enhance';
-import Elave from './components/Elave';
+import TopCourses from './components/TopCourses';
+import Peoples from './components/Peoples';
+import Latest from './components/Latest';
+import Enjoy from './components/Enjoy';
+import Train from './components/Train'
+import NewsLetter from './components/NewsLetter'
+import Footer from './components/Footer'
 
 
 const override= {
@@ -44,8 +50,14 @@ useEffect(()=>{
     <Header/>
     <Categories/>
     <Enhance/>
-    <Elave/>
- 
+    <TopCourses/>
+    <Peoples/>
+    <Latest/>
+    <Enjoy/> 
+    <Train/> 
+<NewsLetter/>
+    <Footer/> 
+
     </div> 
 
   
