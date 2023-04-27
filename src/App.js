@@ -3,18 +3,14 @@ import { useState,useEffect,} from 'react'
 import DotLoader from "react-spinners/DotLoader";
 import './App.css';
 import Navbar from './components/Navbar';
-import Header from './components/Header';
-import Categories from './components/Categories';
-import Enhance from './components/Enhance';
-import TopCourses from './components/TopCourses';
-import Peoples from './components/Peoples';
-import Latest from './components/Latest';
-import Enjoy from './components/Enjoy';
-import Train from './components/Train'
-import NewsLetter from './components/NewsLetter'
 import Footer from './components/Footer'
-
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './pages/Home'
+import NotFound from './pages/NotFound'
+import Contact from './pages/Contact'
+import About from './pages/About'
+import Courses from './pages/Courses'
+import Events from './pages/Events'
 const override= {
   display: "block",
   margin: "20rem auto",
@@ -46,17 +42,21 @@ useEffect(()=>{
     : 
     
     <div> 
-      <Navbar />
-    <Header/>
-    <Categories/>
-    <Enhance/>
-    <TopCourses/>
-    <Peoples/>
-    <Latest/>
-    <Enjoy/> 
-    <Train/> 
-<NewsLetter/>
+      <BrowserRouter> 
+    <Navbar />
+
+    <Routes> 
+      <Route path='/' element={<Home/>} />
+      <Route path='*' element={<NotFound/>} />
+      <Route path='/contact' element={<Contact/>} />
+      <Route path='/about' element={<About/>} />
+      <Route path='/courses' element={<Courses/>} />
+      <Route path='/events' element={<Events/>} />
+   
+</Routes>
+
     <Footer/> 
+    </BrowserRouter>
 
     </div> 
 

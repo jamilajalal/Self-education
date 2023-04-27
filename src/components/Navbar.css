@@ -115,7 +115,7 @@ display: none;
 @media(max-width:991px){
 
 }
-.cross-icon{
+/* .cross-icon{
     font-size: 30px;
     color: #000;
 }
@@ -169,7 +169,10 @@ display: none;
 .aktiv{
     width: 100%;
 }
-.login-navbar{
+ */
+
+
+/* .login-navbar{
     position: relative;
    top: -7%;
 }
@@ -217,6 +220,7 @@ color: blue;
     display: flex;
     position: relative;
     left: 10px;
+
 }
 .checkbox-input a{
     padding-left: 150px;
@@ -289,6 +293,134 @@ border-radius: 50%;
 background-color: #3452FF;
 color: #fff;
 }
-.menudiv{
+.login-menu {
     display: none;
 }
+.login-aktiv{
+    display: flex;
+} */
+
+
+
+
+/* .register{
+    background-color:#fff;
+    width: 400px;
+    height: 800px;
+    position:fixed;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 15%;
+    left: 50%;
+}
+.register-navbar a{
+    padding: 20px 76px;
+   
+   text-decoration: none;
+ color: #000;
+ background-color:#fff;
+}
+.register-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: -160px;
+    background-color: #fff;
+}
+.five-input input{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    width:350px ;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid #dedede;
+  border-radius: 3px;
+}
+.register-h1-p h1{
+    
+    font-size: 24px;
+    color: #0A0A0A;
+
+}
+.register-h1-p p{
+    font-size: 15px;
+    color: #6F7074;
+
+
+}
+.checkbox-input-register{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 40px;
+    top: 10px;
+  
+}
+.checkbox-input-register input{
+   width: 100px;
+   
+}
+
+.blue-input input{
+    width: 350px;
+    background-color: #192675;
+    border: transparent;
+    padding: 8px;
+    border-radius: 3px;
+}
+.blue-input a{
+position: relative;
+top: 30px;
+color: #fff;
+text-decoration: none;font-size: 19px;
+}
+.footer-register{
+    display: flex;
+}
+.footer-register span{
+    position: relative;
+    top: 25px;
+}
+.footer-register input{
+    border: transparent;
+    border-radius: 3px;
+    padding: 5px;
+}
+.footer-register1 input{
+    background-color: #3B5998;
+  
+}
+.footer-register2 input{
+    background-color: #Ea4335;
+
+} 
+.footer-register span,.footer-register a{
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    font-size:15px ;
+}
+
+.gicross{
+    position: absolute;
+    z-index: 4;
+    left: 960px;
+    top: 80px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #3452FF;
+    color: #fff;
+    position: fixed;
+    }
+    .register-menu{
+        display: none;
+    }
+    .register-aktiv{
+        display: flex;
+    } */

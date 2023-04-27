@@ -1,0 +1,121 @@
+.login-navbar{
+    position: relative;
+   top: -7%;
+}
+.login-navbar a{
+
+   padding: 20px 76px;
+   text-decoration: none;
+ color: #000;
+ background-color:#fff;
+}
+
+.login-h1-p h1{
+    font-size: 20px;
+}
+.login-h1-p span{
+color: blue;
+}
+.login-h1-p p{
+    color:#6F7074;
+}
+.login-register{
+    background-color:#fff;
+    width: 400px;
+    height: 400px;
+    position:fixed;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 25%;
+    left: 50%;
+
+
+}
+.three-input input{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #caccd3;
+}
+.checkbox-input{
+    display: flex;
+    position: relative;
+    left: 10px;
+
+}
+.checkbox-input a{
+    padding-left: 150px;
+    color: #C75533;
+    font-size: 14px;
+}
+.text-input input{
+    position: relative;
+    left: 10px;
+    width: 400px;
+    padding: 10px;
+    background-color: #192675;
+    border: transparent;
+}
+
+
+.text-input .text-span{
+    position: relative;
+    z-index: 2;
+    top: 30px;
+    left: 180px;
+    color: #fff;
+}
+
+.text-input .login-color{
+    position: relative;
+    z-index: 2;
+    top: 30px;
+    left: 180px;
+    color:#192675;
+}
+
+
+
+.login-footer{
+    display: flex;
+}
+.login-footer1 input{
+    background-color: #3B5998;
+    border: transparent;
+}
+.login-footer2 input{
+    background-color: #Ea4335;
+    border: transparent;
+}
+
+.login-footer input{
+    margin:30px  7px;
+  padding-top: 10px;
+  
+}
+.login-footer span{
+    color: #fff;
+position: relative;
+top: 60px;
+left: 30px;
+}
+.login-footer1 .span1 a, .login-footer2 .span2 a{
+margin: 30px;
+text-decoration: none;
+color: #fff;
+}
+.gicross{
+position: absolute;
+z-index: 4;
+left: 960px;
+top: 80px;
+padding: 10px;
+border-radius: 50%;
+background-color: #3452FF;
+color: #fff;
+}

@@ -1,4 +1,4 @@
-import React,{useRef,useState} from 'react'
+import React ,{useState} from 'react'
 import './Header.css'
 import { Gradient } from 'react-gradient';
 import {AiOutlineArrowDown  } from "react-icons/ai";
@@ -12,6 +12,9 @@ import Button from './Button'
 
 
 const Header = () => {
+
+
+
   return (
     <div className='header-container'> 
    
@@ -110,7 +113,7 @@ const Header = () => {
 <div className="mouse-scroll">
 <div className="first1">
 <div className="second2">
-<div className="third3"><a href="#"><AiOutlineArrowDown/></a></div>
+<div  className="third3"><a href="#"><AiOutlineArrowDown/></a></div>
 </div>
 </div>
 

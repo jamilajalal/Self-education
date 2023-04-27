@@ -1,0 +1,52 @@
+.cross-icon{
+    font-size: 30px;
+    color: #000;
+}
+.search-icon{
+    font-size: 20px;
+
+}
+.search{
+    background-color:rgba(0,0,0,.8);
+    height: 100vh;
+    position: fixed;
+    width: 100vw;
+    z-index: 4;
+    top: 0;
+    left: 0;
+   transition: width  1.7s ease;
+   overflow-x: hidden;
+  
+}
+.search .input-search{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.input-search input{
+    padding: 20px 80px;
+    border-radius: 5px;
+    border: transparent;
+    
+}
+.input-search input::placeholder{
+   position: relative;
+   right: 50px;
+}
+
+.search-icon{
+    position: relative;
+    right:30px
+}
+.cross-icon{
+    color: #aaa;
+    position: absolute;
+    right: 45px;
+    top: 50px;
+}
+.cross-icon:hover{
+    color: #fff;
+}
+

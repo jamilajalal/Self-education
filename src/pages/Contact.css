@@ -1,0 +1,83 @@
+.contact{
+    max-width: 1530px;
+   height: 150vh;
+}
+
+
+.contact-photo{
+   
+background: linear-gradient(rgba(28, 73, 186, 0.7),rgba(231, 7, 224, 0.7)), url('../assets//images//photo1.jpg');
+background-size: cover;
+    height: 60vh;
+
+}
+.contact-h1-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.contact-h1-p h1{
+color: #fff;
+font-size: 35px;
+}
+.contact-locations{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    
+}
+.contact-locations span{
+font-size: 40px;
+color: #333;
+}
+.contact-locations p{
+    color: #474747;
+}
+.contact-main-section{
+    display: flex;
+    padding: 30px 60px;
+}
+
+.contact-main-left-section{
+flex-basis: 50%;
+}
+
+.contact-main-right-section{
+    flex: 1;
+}
+
+.contact-input input{
+    display: flex;
+    flex-direction: column;
+border-radius: 5px;
+border: 1px solid #a2a3a5;
+width: 530px;
+height: 40px;
+}
+.textarea{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-main-right-section button{
+    padding:10px  30px;
+    width: 160px;
+    height: 50px;
+    border-radius: 25px;
+    border:1px solid #2441E7 ;
+    color:#2441E7 ;
+    background-color: #fff;
+    margin-top: 20px;
+    }
+    .contact-main-right-section button:hover{
+
+background-color:#2441E7 ; 
+color: #fff;
+transition: all .8s ease;
+
+    }
+    .contact-input label{
+font-size: 15px;
+    }
