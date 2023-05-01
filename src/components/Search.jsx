@@ -9,11 +9,11 @@ const Search = ({closeSearchMenu}) => {
   return (
 
 
-    <div onClick={() =>closeSearchMenu(false)} className="search ">
+    <div className="search ">
 
     <form action="#">
 
-<div  className="cross-icon">
+<div  onClick={() =>closeSearchMenu(false)}   className="cross-icon">
      <GiCrossedBones className='cross-icon'/>
      </div>
 

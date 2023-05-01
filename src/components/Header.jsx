@@ -1,4 +1,4 @@
-import React ,{useState} from 'react'
+import React ,{useRef,useState} from 'react'
 import './Header.css'
 import { Gradient } from 'react-gradient';
 import {AiOutlineArrowDown  } from "react-icons/ai";
@@ -9,14 +9,34 @@ import "swiper/css/navigation";
 import {  Navigation } from "swiper";
 import MovingComponent from "react-moving-text";
 import Button from './Button'
-
+import Categories from './Categories';
+import {AiOutlineArrowUp} from 'react-icons/ai'
 
 const Header = () => {
+
+const categories = useRef(null);
+const scrollToSection = (elementRef)=>{
+  window.scrollTo({
+    top:elementRef.current.offsetTop,
+    behavior:"smooth"
+  })
+}
+
+
+const header = useRef(null);
+
+const scrollToSection1=(elementRef)=>{
+  window.scrollTo({
+    top:elementRef.current.offsetTop,
+    behavior:"smooth"
+  })
+}
+
 
 
 
   return (
-    <div className='header-container'> 
+    <div ref={header} className='header-container'> 
    
  				
 
@@ -113,13 +133,23 @@ const Header = () => {
 <div className="mouse-scroll">
 <div className="first1">
 <div className="second2">
-<div  className="third3"><a href="#"><AiOutlineArrowDown/></a></div>
+<div onClick={()=>scrollToSection(categories)} className="third3"><a href="#"><AiOutlineArrowDown/></a></div>
 </div>
 </div>
 
 
+
 </div>
 
+<div ref={categories}  className="cate">
+<Categories/>
+</div>
+
+
+<div onClick={()=> scrollToSection1(header)} className="arrow">
+
+<AiOutlineArrowUp/>
+</div>
 
 
   </div>

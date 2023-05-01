@@ -38,7 +38,7 @@ const closeMenu=(e)=>{
     <img src={meqaleKartininShekli} className=" card-img-top " alt="..." />
     <div className="card-body">
       <h5 className="card-title">{kartinBasligi}</h5>
-      <p className="card-text">{kartinMetni}</p>
+      <p style={{color:"#000"}} className="card-text">{kartinMetni}</p>
     </div>
 <li className='list-inline-item'> 
 <a href="#"><AiFillStar/></a>

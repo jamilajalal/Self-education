@@ -1,33 +1,34 @@
-.register-menu{
-    background-color:#ffffff;
-    width: 400px;
-    height: 800px;
-    position:fixed;
-    z-index: 11;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    top: 15%;
-    left: 50%;
+.register-alfa{
 
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 4;
+    top: 50px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-menu{
+    background-color: #fff;
+    width: 450px;
+    height: 700px;
+
+   
+}
+.register-navbar{
+    display: flex;
 }
 .register-navbar a{
-    padding: 20px 76px;
+    padding: 20px 72px;
    
    text-decoration: none;
  color: #000;
  background-color:#fff;
 }
-.register-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    top: -160px;
-    background-color: #fff;
-}
+
 .five-input input{
     display: flex;
     flex-direction: column;
@@ -38,8 +39,14 @@
     border: 1px solid #dedede;
   border-radius: 3px;
 }
+.register-h1-p{
+ display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 .register-h1-p h1{
-    
+
+    padding-top: 20px;
     font-size: 24px;
     color: #0A0A0A;
 
@@ -64,53 +71,58 @@
 }
 
 .blue-input input{
-    width: 350px;
+    width: 450px;
     background-color: #192675;
     border: transparent;
     padding: 8px;
     border-radius: 3px;
 }
 .blue-input a{
+  color:#fff;
+  font-size: 18px;
 position: relative;
-top: 30px;
-color: #fff;
-text-decoration: none;font-size: 19px;
-}
-.footer-register{
-    display: flex;
-}
-.footer-register span{
-    position: relative;
-    top: 25px;
-}
-.footer-register input{
-    border: transparent;
-    border-radius: 3px;
-    padding: 5px;
-}
-.footer-register1 input{
-    background-color: #3B5998;
-  
-}
-.footer-register2 input{
-    background-color: #Ea4335;
-
-} 
-.footer-register span,.footer-register a{
-    color: #fff;
-    text-decoration: none;
-    margin: 10px;
-    font-size:15px ;
+top: 37px;
+left: 50%;
+background-color: #192675;
 }
 
-.gicross{
-    position: absolute;
-    z-index: 10;
-    left: 960px;
-    top: 80px;
-    padding: 10px;
-    border-radius: 50%;
-    background-color: #3452FF;
-    color: #fff;
-    position: fixed;
+
+    .cross-icon2{
+        color: #aaa;
+        position: absolute;
+        right: 45px;
+        top: 25px;
+        font-size: 30px;
+    }
+    .cross-icon2:hover{
+        color: #fff;
+    }
+
+
+    
+    .register-footer{
+        display: flex;
+    }
+    .register-footer1 input{
+background-color: #3B5998;
+    }
+    .register-footer2 input{
+        background-color:  #Ea4335;
+    }
+    .register-footer input{
+        padding: 5px 15px;
+        border: transparent;
+    }
+    .register-footer span a{
+        background-color: transparent;
+        color: #fff;
+        padding: 0;
+position: relative;
+top: 35px;
+left: 100px;
+    }
+    .register-footer .face-icon{
+        position: relative;
+        top: 65px;
+        color: #fff;
     }

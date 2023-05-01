@@ -1,0 +1,92 @@
+.about{
+    max-width: 1530px;
+    height: 100%;
+   
+}
+.about-photo{
+    background: linear-gradient(rgba(28, 73, 186, 0.7),rgba(231, 7, 224, 0.7)), url('../assets//images//photo1.jpg');
+    background-size: cover;
+        height: 60vh;
+}  
+.about-h1-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+.about-h1-p h1{
+
+color: #fff;
+font-size: 35px;
+
+
+}
+.our-values-left-side p{
+    color: #000;
+
+}
+.our-values {
+    display: flex;
+   
+}
+.our-values-left-side{
+    flex-basis: 50%;
+}
+.our-values-right-side{
+    flex: 1;
+}
+.our-values-right-side img{
+    width: 500px;
+    height: 330px;
+}
+.our-values-left-side p span{
+    color: #585757;
+
+}
+.p-counter{
+    display: flex;
+  justify-content: space-around;
+}
+.our-story{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.our-story h4{
+    text-align: center;
+}
+.our-story p {
+    color: #7E7E7E;
+    font-size: 15px;
+    
+}
+.countup{
+    font-size: 25px;
+}
+.value-story{
+    padding: 50px 80px;
+}
+.who{
+    padding-top: 80px;
+    display: flex;
+   
+}
+.who-left{
+    flex-basis: 50%;
+}
+.who-right{
+    flex: 1;
+}
+.who p{
+    padding-top: 30px;
+    color: #7E7E7E;
+    font-size: 14px;
+}
+.who h4{
+    font-size: 22px;
+}
+.about22{
+    display: flex;
+}

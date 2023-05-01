@@ -81,14 +81,14 @@ padding:6px 12px;
     border-bottom: 1px solid #aaa;
     
 }
-a.nav-link.dropdown-toggle.text-white{
+a.nav-link.text-white{
+ 
    padding:30px 35px 30px 10px;
 }
-a.nav-link.text-white{
-    padding: 30px 35px 30px 10px;
-}
- .icon a.bsbag:hover{
 
+
+ .nav-item.dropdown{
+padding-right: 30px;
  }
 
 
@@ -424,3 +424,48 @@ text-decoration: none;font-size: 19px;
     .register-aktiv{
         display: flex;
     } */
+/* 
+.dropdown-menu-1{
+    background-color: #fff;
+    padding:40px  70px;
+  
+    color: #000;
+    position: absolute;
+    z-index: 5;
+    display: flex;
+
+} */
+
+.dropdown-menu{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding:10px  40px;
+  padding-left: 10px;
+    color: #000;
+    position: absolute;
+    z-index: 5;
+    cursor: pointer;
+}
+.menu-1{
+  position: relative;
+    right: 10px;
+}
+
+.eventslink{
+    color: #000;
+    text-decoration: none;
+    display: flex;
+  
+
+}
+.eventslink:hover ,.courseslink:hover{
+   color: #000;
+    background-color: #dee1e8;
+}
+.courseslink{
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}

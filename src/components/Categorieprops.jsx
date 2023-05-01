@@ -13,7 +13,7 @@ const Categorieprops = ({icindekiH5,icindekiP,icindekiSekil}) => {
 </div>
 
 <div className="img1"  >
-<img style={{  borderRadius:"5px",backgroundSize:"cover"}} src={icindekiSekil} alt="" className='w-100' />
+<img  style={{  borderRadius:"5px",backgroundSize:"cover"}} src={icindekiSekil} alt="" className='w-100' />
 </div>
 </div>
 

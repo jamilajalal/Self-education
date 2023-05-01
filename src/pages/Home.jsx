@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../components/Header';
-import Categories from '../components/Categories';
+// import Categories from '../components/Categories';
 import Enhance from '../components/Enhance';
 import TopCourses from '../components/TopCourses';
 import Peoples from '../components/Peoples';
@@ -13,7 +13,7 @@ const Home = () => {
     <div>
 
 <Header/>
-    <Categories/>
+    {/* <Categories/> */}
     <Enhance/>
     <TopCourses/>
     <Peoples/>

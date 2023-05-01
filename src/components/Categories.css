@@ -63,3 +63,12 @@ padding-left:80px;
 padding-left:15%
     }
 }
+.arrow{
+    position: fixed;
+  bottom: 30px;
+  right: 0;
+  width: 100px;
+font-size: 30px;
+  color: #ffffff;
+  z-index: 10;
+}

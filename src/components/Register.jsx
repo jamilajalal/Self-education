@@ -3,19 +3,31 @@ import './Register.css'
 import {RiGoogleFill} from 'react-icons/ri'
 import {GiCrossedBones} from 'react-icons/gi'
 import {GrFacebookOption} from 'react-icons/gr'
+import Login from './Login'
 const Register = ({closeRegister}) => {
- 
+ const [openLogin,setOpenLogin]=useState(false)
   return (
+<div className="register-alfa">
+<div  onClick={() =>closeRegister(false)}   className="cross-icon2">
+     <GiCrossedBones className='cross-icon2'/>
+     </div>
+<div  className="register-menu" >
 
-<div onClick={() =>closeRegister(false)} className="register-menu" >
-<div  className="gicross">
-    <GiCrossedBones/>  
-    </div>
-<div className="register" >
-  <div className="register-text">
+
+
 <div className="register-navbar">
-  <a href="#">Login</a>
-  <a className='a-register'  href="#">Register</a>
+  <div  onClick={() =>closeRegister(false)}  className="register-navbar1">
+  <a onClick={()=> {
+    setOpenLogin(true) ;
+  }}
+  href="#">Login</a>
+  </div>
+ 
+{openLogin && <Login closeLogin ={setOpenLogin}/>} 
+<div className="register-navbar2">
+<a className='a-register'  href="#">Register</a>
+</div>
+
 </div>
 <div className="register-h1-p">
 <h1>Create New Account</h1>
@@ -30,7 +42,7 @@ const Register = ({closeRegister}) => {
 <input type="password" placeholder='Confirm Password' />
 <div className="checkbox-input-register">
 <input type="checkbox" id='name' />
-<label htmlFor="name">Want to become an instructor?</label>
+<label style={{paddingTop:"8px"}} htmlFor="name">Want to become an instructor?</label>
 </div>
 
 </div>
@@ -38,13 +50,15 @@ const Register = ({closeRegister}) => {
   <label htmlFor="label"><a href="#">Register</a></label>
   <input type="text" id='label' />
 </div>
-<div className="footer-register">
-  <div className="footer-register1">
-<label htmlFor=""><span className='span1'><GrFacebookOption/><a href="#">Facebook</a> </span></label>
+
+<hr />
+<div className="register-footer">
+  <div className="register-footer1">
+<label htmlFor=""><span className='span1'><GrFacebookOption className='face-icon'/><a href="#">Facebook</a> </span></label>
 <input type="text" />
 </div>
-<div className="footer-register2">
-<label htmlFor=""><span className='span2'><RiGoogleFill/><a href="#">Google</a> </span></label>
+<div className="register-footer2">
+<label htmlFor=""><span className='span2'><RiGoogleFill className='face-icon'/><a href="#">Google</a> </span></label>
 <input type="text" />
   </div>
 </div>
@@ -52,7 +66,7 @@ const Register = ({closeRegister}) => {
 </div>
 </div>
 
-</div>
+
 
   )
 }

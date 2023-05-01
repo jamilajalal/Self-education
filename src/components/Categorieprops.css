@@ -3,11 +3,12 @@
   flex-direction: column; 
   position: absolute;
   z-index: 2;
-  height: 25vh;
-  width: 240px;
+  height: 21vh;
+  width: 305px;
   color: #fff;
   justify-content: center;
   text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, .3),rgba(0,0,0,.3))
 
 }
 

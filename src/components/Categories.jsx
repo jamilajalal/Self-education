@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import './Categories.css'
 import Categorieprops from './Categorieprops'
 import categorie1 from '../assets/images/categorie1.jpg'
@@ -10,11 +10,13 @@ import categorie6 from '../assets/images/categorie6.jpg'
 import categorie7 from '../assets/images/categorie7.jpg'
 import categorie8 from '../assets/images/categorie8.jpg'
 
+import Header from './Header'
 
 const Categories = () => {
+
   return (
 
-<div className="categoriesMain ">
+<div  className="categoriesMain ">
   
 <div className="h1p">
 <h1>Via School Categories Courses</h1>
@@ -42,6 +44,10 @@ const Categories = () => {
 
 
     <button col-12 col-md-6 col-lg-3>View All Courses</button>
+
+ 
+
+
     </div> 
   )
   }

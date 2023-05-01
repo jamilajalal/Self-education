@@ -9,8 +9,11 @@ import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 import Contact from './pages/Contact'
 import About from './pages/About'
-import Courses from './pages/Courses'
-import Events from './pages/Events'
+
+import EventList from './pages/EventList';
+import Instructors from './pages/Instructors';
+import InstructorSingle from './pages/InstructorSingle';
+import EventListSingle from './pages/EventListSingle';
 const override= {
   display: "block",
   margin: "20rem auto",
@@ -50,9 +53,14 @@ useEffect(()=>{
       <Route path='*' element={<NotFound/>} />
       <Route path='/contact' element={<Contact/>} />
       <Route path='/about' element={<About/>} />
-      <Route path='/courses' element={<Courses/>} />
-      <Route path='/events' element={<Events/>} />
+      <Route path='/courses' element={<Home/>} />
+      <Route path='/events' element={<Home/>} />
+      <Route path='/eventlist' element={<EventList/>} />
+      <Route path='/eventlistsingle' element={<EventListSingle/>} />
+      <Route path='/instructors' element={<Instructors/>} />
+      <Route path='/instructorsingle' element={<InstructorSingle/>} />
    
+  
 </Routes>
 
     <Footer/> 
