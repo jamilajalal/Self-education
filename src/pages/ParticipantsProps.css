@@ -1,0 +1,16 @@
+.participantsProps{
+    width: 200px;
+    padding-top: 20px;
+}
+.participantsProps img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+.participantsProps  p{
+    color: #7E7E7E;
+}
+.participantsProps h4{
+    font-size: 20px;
+}

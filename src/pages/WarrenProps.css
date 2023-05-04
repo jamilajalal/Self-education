@@ -1,0 +1,42 @@
+.warrenprops a{
+    text-decoration: none;
+    color: #555555;
+}
+.warrenprops{
+    display: flex;
+}
+.warrenh4{
+    padding: 0 30px 50px ;
+}
+.warrenh4 li{
+    list-style-type: none;
+}
+.warrenh4-li a{
+    color: rgb(209, 209, 44);
+    padding: 5px;
+}
+.warrenh4-li{
+    display: flex;
+    justify-content: space-between;
+}
+.warrenh4 p{
+    color: #7c7a7a;
+}
+.warren-button-span{
+    display: flex;
+    justify-content: space-between;
+}
+.warren-button-span a{
+    font-size: 18px;
+   
+    text-decoration: none;
+}
+.warren-button-span button{
+    padding: 3px 15px;
+    border-radius: 25px;
+    border: transparent;
+    background-color: #EDEFF7;
+}
+.warren-button-span span1{
+ color:rgb(255, 0, 0)
+}

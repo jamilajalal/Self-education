@@ -1,0 +1,16 @@
+.clock p{
+    color: #ffffff;
+    font-size: 30px;
+}
+.clock small{
+    font-size: 20px;
+    color: #fff;
+}
+.clock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  margin-top: 50px;
+    background: linear-gradient(#2c63b6,#d50cc4);
+    padding: 15px;
+}

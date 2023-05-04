@@ -9,6 +9,10 @@
 .list-inline-item{
     padding: 10px;
 }
+.list-inline-item a{
+    color: rgb(209, 209, 44);
+    padding: 3px;
+}
 .lastsection{
     display: flex;
     justify-content: space-around;

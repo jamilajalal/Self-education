@@ -1,6 +1,5 @@
 import React ,{useRef,useState} from 'react'
 import './Header.css'
-import { Gradient } from 'react-gradient';
 import {AiOutlineArrowDown  } from "react-icons/ai";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";

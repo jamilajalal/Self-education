@@ -14,8 +14,8 @@ import footerLogo from '../assets/images/footer-logo.png'
 
 const Footer = () => {
   return (
-   <div className="umumi-footer">    
-   <div className="footer row">
+    
+   <div className="footer  row">
 
 <FooterProps footerh1="Contact" footera1="329 Queensberry Street, North" footera2="Melbourne" footera3="VIC 3051, Australia." footera4="123 456 7890" footera5="support@edumy.com"/>
 <FooterProps footerh1="Company" footera1="About Us" footera2="Blog" footera3="Contact" footera4="Become a Teacher" />
@@ -65,7 +65,7 @@ const Footer = () => {
  
 
 
-   </div>
+
   )
 }
 

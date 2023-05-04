@@ -47,7 +47,7 @@ const Register = ({closeRegister}) => {
 
 </div>
 <div className="blue-input">
-  <label htmlFor="label"><a href="#">Register</a></label>
+  <label htmlFor="label"><a className='label-register'  href="#">Register</a></label>
   <input type="text" id='label' />
 </div>
 

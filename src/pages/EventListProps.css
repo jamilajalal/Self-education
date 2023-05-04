@@ -1,0 +1,30 @@
+.eventlistprops{
+    display: flex;
+}
+.event-h4-p-a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.event-h4-p-a a{
+    padding-top: 15px;
+    text-decoration: none;
+    color:#7E7E7E ;
+}
+.eventlistimg img{
+   
+    padding-top: 30px;
+    padding-right: 30px;
+}
+.eventlistimg h1{
+
+color: #fff;
+    position: absolute;
+    z-index: 2;
+padding-top: 250px;
+padding-left: 300px;
+font-size: 34px;
+
+
+}

@@ -126,3 +126,6 @@ left: 100px;
         top: 65px;
         color: #fff;
     }
+    .label-register:hover{
+        background-color: #192675;;
+    }

@@ -1,0 +1,33 @@
+.instructorsingleprops{
+    display: flex;
+}
+.instructorsingle-a a{
+    color: rgb(51, 0, 255);
+}
+.h4-small-p p{
+    color: #6F7074;
+}
+.instructorsingleprops a{
+color: rgb(54, 12, 241);
+}
+.instructorsingleprops .img1{
+    color: rgb(255, 2, 2);
+}
+.instructorsingleprops h4{
+    font-size: 18px;
+}
+.h4-small{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.h4-small small{
+    padding-left: 20px;
+}
+.h4-small-p{
+    padding-left: 20px;
+}
+.contact-Props{
+    display: flex;
+    flex-direction: column;
+}

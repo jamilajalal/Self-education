@@ -6,7 +6,7 @@
 
 .contact-photo{
    
-background: linear-gradient(rgba(28, 73, 186, 0.7),rgba(231, 7, 224, 0.7)), url('../assets//images//photo1.jpg');
+    background: linear-gradient(120deg,rgba(28, 73, 186, 0.7),rgba(223, 8, 159, 0.7)), url('../assets//images//photo1.jpg');
 background-size: cover;
     height: 60vh;
 

@@ -1,0 +1,15 @@
+.contactprops{
+    padding-top: 20px;
+}
+.contactprops p{
+    margin: 0;
+    color: #ada8a8;
+}
+.contactul span{
+    padding-left: 7px;
+    color: #222;
+}
+.contactprops a{
+    text-decoration: none;
+    color: #222;
+}

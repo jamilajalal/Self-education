@@ -1,0 +1,60 @@
+.eventlist{
+   width: 1530px;
+   height: 150%; 
+   overflow-x: hidden;
+
+
+}
+.eventlist-photo{
+    background: linear-gradient(120deg,rgba(28, 73, 186, 0.7),rgba(223, 8, 159, 0.7)), url('../assets//images//photo1.jpg');
+    background-size: cover;
+        height: 60vh;
+}
+.eventlist-h1-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.eventlist-h1-p h1{
+    color: #fff;
+}
+.eventProps{
+    width: 1530px;
+  
+    overflow: hidden;
+
+}
+.page-link{
+    display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 50px;
+
+
+}
+.page-link button{
+    height: 50px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 1px solid #7E7E7E;
+}
+.page-link a{
+padding: 16px;
+    text-decoration: none;
+    color: #4c4949;
+}
+.page-link .arrowicon{
+    color: red;
+    font-size: 20px;
+    margin: 10px;
+}
+.page-a{
+    display: flex;
+}
+.page-a .blue-2{
+   background-color: blue;
+    border-radius: 50px;
+    color:#fff
+}

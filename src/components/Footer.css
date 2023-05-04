@@ -4,24 +4,26 @@
     width: 1530px;
     background-color:#222;
     position: relative;
-    top:270px;
-    padding: 80px;
+    top:200px;
+    padding: 80px 80px 0;
     overflow: hidden;
 
  
 }
-
+.umumi-footer{
+    height: 0px;
+}
 
 .footer-navbar{
     border-top: 1px solid #aaa;
     border-bottom: 1px solid #000;
 }
-.footerbuttonprops{
+/* .footerbuttonprops{
     position: relative;
     top: -170px;
     left: 70%;
     
-}
+} */
 
 .footer-left1{
     display: flex;
