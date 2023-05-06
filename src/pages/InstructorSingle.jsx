@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import './InstructorSingle.css';
 import InstructorSingleProps from './InstructorSingleProps'
 import ContactProps from './ContactProps';
@@ -9,9 +9,20 @@ import {FiInstagram } from "react-icons/fi";
 import {ImPinterest } from "react-icons/im";
 import {AiOutlineDribbble } from "react-icons/ai";
 import {AiOutlineGoogle } from "react-icons/ai";
+import{AiOutlineArrowUp} from 'react-icons/ai'
 const InstructorSingle = () => {
+
+  const instructorsingle = useRef(null);
+
+  const scrollToSection1=(elementRef)=>{
+    window.scrollTo({
+      top:elementRef.current.offsetTop,
+      behavior:"smooth"
+    })
+  }
+  
   return (
-    <div className='instructorsingle'>
+    <div ref={instructorsingle} className='instructorsingle'>
 <div className="instructorsingle-photo">
   <div className="instrucsingle-h1-p">
   <h1>ALI TUFAN</h1>
@@ -102,6 +113,10 @@ Web Designer"/>
 </div>
 
 
+<div onClick={()=> scrollToSection1(instructorsingle)} className="arrow">
+
+<AiOutlineArrowUp/>
+</div>
 
 
 

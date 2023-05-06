@@ -1,9 +1,8 @@
 import React from 'react'
 import './Footer.css'
 import FooterProps from './FooterProps'
-import {AiOutlineApple} from "react-icons/ai";
+import {ImAppleinc} from "react-icons/im";
 import {SlControlPlay} from "react-icons/sl";
-import FooterButtonProps from './FooterButtonProps'
 import {RiFacebookFill} from "react-icons/ri"
 import { BsTwitter } from "react-icons/bs";
 import {FiInstagram } from "react-icons/fi";
@@ -22,10 +21,41 @@ const Footer = () => {
 <FooterProps footerh1="Programs" footera1="Nanodegree Plus" footera2="Veterans" footera3="Georgia" footera4="Self-Driving Car" />
 <FooterProps footerh1="SUPPORT" footera1="Documentation" footera2="Forums" footera3="Language Packs" footera4="Release Status" />
  
-   <div className="footerbuttonprops  ">
-   <FooterButtonProps propsh1="Mobile" appleIcon={<AiOutlineApple/>} appleh1="App Store" applep="Available now on the"/> 
-   <FooterButtonProps appleIcon={<SlControlPlay/>} appleh1="Google Play" applep="Get in on"/> 
-   </div>
+
+<div className="footer-last">
+  
+<h4>Mobile</h4>
+
+
+
+<div className="footer-last-1">
+
+<div className="last1-a"><ImAppleinc/></div>
+
+<div className="last1-a2-a3"> 
+<div className="last1-a2">App Store</div>
+<div className="last1-a3">Available now on the</div>
+</div>
+
+</div>
+<div className="footer-last-1">
+
+<div className="last1-a"><SlControlPlay/></div>
+
+<div className="last1-a2-a3"> 
+<div className="last1-a2">Google Play</div>
+<div className="last1-a3">Get in on</div>
+</div>
+
+</div>
+
+
+
+
+</div>
+
+
+
 
 <div className="footer-navbar row">
 <div className="footer-navbar-left-side col-12 col-md-6 col-lg-2">

@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import './EventList.css'
 import list1 from '../assets/images/list1.jpg'
 import list2 from '../assets/images/list2.jpg'
@@ -10,9 +10,20 @@ import {IoMdTime} from 'react-icons/io'
 import {CiLocationOn} from 'react-icons/ci'
 import {AiOutlineArrowLeft} from 'react-icons/ai'
 import {AiOutlineArrowRight} from 'react-icons/ai'
+import {AiOutlineArrowUp} from 'react-icons/ai'
 const EventList = () => {
+
+  const eventlist = useRef(null);
+
+const scrollToSection1=(elementRef)=>{
+  window.scrollTo({
+    top:elementRef.current.offsetTop,
+    behavior:"smooth"
+  })
+}
+
   return (
-    <div className='eventlist'>
+    <div ref={eventlist} className='eventlist'>
 
 
 <div className="eventlist-photo">
@@ -70,6 +81,10 @@ const EventList = () => {
 </div>
 
 
+<div onClick={()=> scrollToSection1(eventlist)} className="arrow">
+
+<AiOutlineArrowUp/>
+</div>
 
 
 

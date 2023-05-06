@@ -1,12 +1,45 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import './Contact.css'
-
 import {CiLocationOn} from "react-icons/ci"
 import {BsTelephone} from "react-icons/bs"
 import {GiLetterBomb} from "react-icons/gi";
+import {AiOutlineArrowUp} from 'react-icons/ai'
+import emailjs from '@emailjs/browser';
 const Contact = () => {
+
+  const contact = useRef(null);
+
+  const scrollToSection1=(elementRef)=>{
+    window.scrollTo({
+      top:elementRef.current.offsetTop,
+      behavior:"smooth"
+    })
+  }
+
+
+
+
+
+const formRef = useRef();
+// console.log(formRef.current)
+
+const sendEmail = (e) => {
+  e.preventDefault();
+
+
+  emailjs.sendForm('service_cy84h2j', 'template_a5goafh', formRef.current, 'ckXuQ_faHPVui35Hk')
+  .then((result) => {
+      console.log(result.text);
+  }, (error) => {
+      console.log(error.text);
+  });
+
+formRef.current.reset()
+
+
+}
   return (
-    <div className='contact '>
+    <div ref={contact}  className='contact '>
 <div className="contact-photo">
 
 <div className="contact-h1-p">
@@ -69,18 +102,36 @@ Fax: (+096) 468 235</p>
 
 <h4>Send a Message</h4>
 <p style={{ color:"#474747"}}>Ex quem dicta delicata usu, zril vocibus maiestatis in qui.</p>
-<div className="contact-input">
-<form action="">
-<label htmlFor="">Full Name</label>
-<input type="text" />
-<label htmlFor="">Your Email</label>
-<input type="email" />
-<label htmlFor="">Subject</label>
-<input type="text" />
+<div  className="contact-input">
+<form ref={formRef} onSubmit={sendEmail}  action="">
+
+<input
+ type="text"
+ placeholder='Name'
+ name='mesajiGondereninAdi'
+ />
+
+<input 
+type="email"
+placeholder='email'
+name='gondereninEmaili'
+/>
+
+<input
+ type="text"
+ placeholder='number'
+ name='gondereninNomresi'
+  />
+
+<input
+ type="text"
+ placeholder='tittle'
+ name='mesajinMovzusu'
+  />
 <div className="textarea">
 <label htmlFor="">Your Message</label>
 <textarea style={{width:"530px",height:"154px",border:"1px solid #a2a3a5"}} name="" id="" cols="30" rows="10"></textarea>
-<button>Button</button>
+<button type='submit'>Button</button>
 </div>
 
 
@@ -97,7 +148,10 @@ Fax: (+096) 468 235</p>
 
 </div>
 
+<div onClick={()=> scrollToSection1(contact)} className="arrow">
 
+<AiOutlineArrowUp/>
+</div>
 
 
     </div>

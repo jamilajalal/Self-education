@@ -13,11 +13,22 @@ import { Navigation } from "swiper";
 import Peoples from '../components/Peoples'
 import Train from '../components/Train'
 import NewsLetter from '../components/NewsLetter'
+import {AiOutlineArrowUp} from 'react-icons/ai'
 
 import CountUp from 'react-countup'
 const About = () => {
+  
+const about = useRef(null);
+
+const scrollToSection1=(elementRef)=>{
+  window.scrollTo({
+    top:elementRef.current.offsetTop,
+    behavior:"smooth"
+  })
+}
+
   return (
-    <div className='about'>
+    <div ref={about} className='about'>
       <div className="about-photo">
 
         <div className="about-h1-p">
@@ -126,6 +137,12 @@ const About = () => {
 <Train/>
 
 <NewsLetter/>
+
+
+<div onClick={()=> scrollToSection1(about)} className="arrow">
+
+<AiOutlineArrowUp/>
+</div>
     </div>
   )
 }

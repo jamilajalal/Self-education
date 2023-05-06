@@ -1,4 +1,4 @@
-import React ,{useState,useEffect} from 'react'
+import React ,{useState,useEffect,useRef} from 'react'
 import './EventListSingle.css'
 import single1 from '../assets/images/single1.jpg'
 import {CgCalendarDates} from 'react-icons/cg'
@@ -21,6 +21,7 @@ import peoplephoto3 from '../assets/images/peoplephoto3.jpg'
 import peoplephoto4 from '../assets/images/peoplephoto4.jpg'
 import WarrenProps from './WarrenProps'
 import {AiFillStar} from 'react-icons/ai'
+import {AiOutlineArrowUp} from 'react-icons/ai'
 
 
 const EventListSingle = () => {
@@ -70,6 +71,14 @@ useEffect(()=>{
 
 
 
+const eventlistsingle = useRef(null);
+
+const scrollToSection1=(elementRef)=>{
+  window.scrollTo({
+    top:elementRef.current.offsetTop,
+    behavior:"smooth"
+  })
+}
 
 
 
@@ -79,7 +88,7 @@ useEffect(()=>{
 
 
   return (
-    <div className='eventlistsingle'>
+    <div ref={eventlistsingle} className='eventlistsingle'>
 
 <div className="eventsingle-photo">
 
@@ -291,12 +300,16 @@ useEffect(()=>{
 
 </div>
 
+<div onClick={()=> scrollToSection1(eventlistsingle)} className="arrow">
 
+<AiOutlineArrowUp/>
+</div>
+    </div>
 
 
 
       
-    </div>
+   
   )
 }
 
