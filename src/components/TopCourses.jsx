@@ -8,7 +8,7 @@ const TopCourses = () => {
 
 
   return (
-    <div className='topcourses-container row'> 
+    <div className='topcourses-container '> 
 
 <div className="topcourses ">
 <h5>Browse Our Top Courses</h5>
@@ -30,12 +30,13 @@ const TopCourses = () => {
 
 
 
+<div className="top-Container row">
 
-
-    <div className='row top-little-container col-12 col-md-6 col-lg-2'> 
+    <div className=' top-little-container col-12 col-md-6 col-lg-3'> 
 {
 
     melumatlar.map(melumat =>(
+  
 < TopLittle kartinBasligi={melumat.meqaleninBasligi} meqaleKartininShekli={melumat.meqaleninShekli} kartinMetni={melumat.meqaleninMetni}/>
 
     ))
@@ -43,6 +44,23 @@ const TopCourses = () => {
 
  
     </div>
+
+    <div className=' top-little-container1  col-12 col-md-6 col-lg-2 '> 
+{
+
+    melumatlar.map(melumat =>(
+  
+< TopLittle kartinBasligi={melumat.meqaleninBasligi} meqaleKartininShekli={melumat.meqaleninShekli} kartinMetni={melumat.meqaleninMetni}/>
+
+    ))
+}
+
+ 
+    </div>
+    </div>
+
+
+
     </div>
   )
 }

@@ -2,22 +2,15 @@
    margin-top:50px;
    max-width:1530px;
     height: 60vh;
-    background-image: url(https://creativelayers.net/themes/edumy-html/images/background/2.jpg);
+  
     background-attachment: fixed;
     background-size: cover;
     min-height: 500px;
     background-position: center;
-   
+    background: linear-gradient(120deg,rgba(1, 44, 154, 0.7),rgba(1, 4, 28, 0.7)), url('../assets//images//enhance-photo.jpg');
+
 }
-.enhance::before{
- 
-    content: "";
-    width: 1530px;
-    height: 500px;
-    background-image: linear-gradient( 135deg, rgb(8, 27, 136) 0%, rgb(9, 19, 96) 100%);
-    opacity: 0.8;
-    position: absolute;
-    }
+
     .enhance1{
         position: absolute;
         z-index: 2;
@@ -28,6 +21,7 @@
    align-items: center;
    position: relative;
    color: #fff;
+  
     }
     .enhance1  button{
         padding:10px 60px;

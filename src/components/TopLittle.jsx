@@ -27,7 +27,7 @@ const closeMenu=(e)=>{
    
 
     
-    <div onMouseEnter={openMenu}  onMouseLeave={closeMenu} className=" umumi card col-12 col-md-4 col-lg-2 " >
+    <div  onMouseEnter={openMenu}  onMouseLeave={closeMenu} className=" umumi card  " >
         <div className="tagIn  " ref={taginDivininUnvaniRef}>
 
 

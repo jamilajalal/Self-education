@@ -32,12 +32,12 @@
 .five-input input{
     display: flex;
     flex-direction: column;
-    margin-left: 25px;
-    width:350px ;
+    margin-left: 15px;
     padding: 5px;
-    margin-top: 10px;
     border: 1px solid #dedede;
   border-radius: 3px;
+
+
 }
 .register-h1-p{
  display: flex;
@@ -60,17 +60,18 @@
 .checkbox-input-register{
     display: flex;
     align-items: center;
-    position: relative;
-    right: 40px;
-    top: 10px;
+
   
 }
 .checkbox-input-register input{
-   width: 100px;
-   
+ width: 26px;
+ height:26px;
+justify-content: center;
+text-align: center;
+align-items: center;
 }
 
-.blue-input input{
+/* .blue-input input{
     width: 450px;
     background-color: #192675;
     border: transparent;
@@ -84,7 +85,7 @@ position: relative;
 top: 37px;
 left: 50%;
 background-color: #192675;
-}
+} */
 
 
     .cross-icon2{
@@ -129,3 +130,24 @@ left: 100px;
     .label-register:hover{
         background-color: #192675;;
     }
+.register-input{
+    width: 418px;
+    height:50px;
+    margin-bottom: 10px;
+}
+.blue-button{
+   margin:60px 0 0 10px;
+   width: 418px;
+   height:50px;
+   background-color: #192675;
+}
+.input-feedback{
+    color: red;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input::placeholder{
+    color:#cac3c3;
+}
+ 

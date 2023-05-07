@@ -20,7 +20,7 @@ const Categories = () => {
   
 <div className="h1p">
 <h1>Via School Categories Courses</h1>
-<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+<p style={{color:"#6F7074",fontSize:"15px"}}>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
 
 </div>
 
@@ -43,7 +43,7 @@ const Categories = () => {
 
 
 
-    <button col-12 col-md-6 col-lg-3>View All Courses</button>
+    <button  col-12 col-md-6 col-lg-3>View All Courses</button>
 
  
 

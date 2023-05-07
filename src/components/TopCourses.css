@@ -20,7 +20,8 @@ align-items: center;
 .topcourses a:hover{
     color:#000
 }
-.top-little-container{
+.top-little-container,.top-little-container1{
     width: 1530px;
     padding:20px 220px;
+    display: flex;
 }

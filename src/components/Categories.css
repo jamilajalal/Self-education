@@ -12,10 +12,6 @@ padding-top: 90px;
 .h1p h1{
     font-size: 26px;
 }
-.h1p h1{
-    padding-bottom: 20px;
-}
-
 
 .categoriesMain{
     max-width:1530px;
@@ -44,16 +40,8 @@ padding-left:80px;
    
 
 }
-@media(max-width:992px){
-    .categoriesMain{
-   
-    }
-}
-@media(max-width:778px){
-    .categoriesMain  button{
-        margin-top:120px
-    }
-}
+
+
 @media(max-width:766px){
     .categoriesMain{
         padding-left:15px;
@@ -61,6 +49,15 @@ padding-left:80px;
     }
     .h1p{
 padding-left:15%
+    }
+}
+
+
+@media(max-width:500px){
+  
+    .categoriesMain button{
+    position: relative;
+    right: 80px;
     }
 }
 .arrow{

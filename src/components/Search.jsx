@@ -1,4 +1,4 @@
-import React from 'react'
+import React  from 'react'
 import './Search.css'
 import {GiCrossedBones} from 'react-icons/gi'
 import {BiSearchAlt} from 'react-icons/bi'
@@ -17,13 +17,16 @@ const Search = ({closeSearchMenu}) => {
      <GiCrossedBones className='cross-icon'/>
      </div>
 
-<div className="input-search">
-    <input type="text" placeholder ='Search courses'/>
+<div  className="input-search">
+    <input  type="text" placeholder ='Search courses'/>
 
-    <div className="search-icon">
+    <div   className="search-icon">
     <BiSearchAlt/>
     </div>
     </div>
+    
+
+   
     
     </form>
     

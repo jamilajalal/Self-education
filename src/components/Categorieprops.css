@@ -3,12 +3,12 @@
   flex-direction: column; 
   position: absolute;
   z-index: 2;
-  height: 21vh;
-  width: 305px;
+height: 150px;
+width: 300px;
   color: #fff;
   justify-content: center;
-  text-align: center;
-  background: linear-gradient(rgba(0, 0, 0, .3),rgba(0,0,0,.3))
+ align-items: center;
+
 
 }
 
@@ -20,7 +20,8 @@
 }
 
 .img1 img{
-  padding-bottom:  30px;
+ margin-bottom:  30px;
+
 }
 
 .detailsImg.col-12.col-md-6.col-lg-3:hover{
@@ -30,23 +31,34 @@
 
 @media(max-width:1200px){
     .details{
-        padding-bottom: 50px;
+        
+        width: 200px;
+        height: 100px;
     }
 }
 @media(max-width:990px){
     .details{
-      padding: 50px;
+    
+      width: 336px;
+      height: 175px;
     }
 }
 @media(max-width:778px){
     .details{
-  position: relative;
-  top:70%;
-  left:30%
+ width: 516px;
+ height: 268px;
+
     }
-    .detailsImg.col-12.col-md-6.col-lg-3{
-     height: 300px;
-    }
-    
+
+}
+@media(max-width:500px){
+  .details{
+    width: 360px;
+    height: 205px;
+  }
+  .detailsImg img{
+    width: 360px;
+    height: 205px;
+  }
 }
 
