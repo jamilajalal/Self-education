@@ -55,64 +55,64 @@ const Register = ({ closeRegister }) => {
 
 
 
-              }) }
+              })}
 
-onSubmit={(values, { resetForm, setSubmitting})=>{
-  console.log(values);
-  setTimeout(()=>{
-resetForm();
-  },1000);
-}}
+            onSubmit={(values, { resetForm, setSubmitting }) => {
+              console.log(values);
+              setTimeout(() => {
+                resetForm();
+              }, 1000);
+            }}
 
           >
             {
-              ({ values, errors, handleChange, handleSubmit, handleReset, dirty,touched, isSubmitting }) => (
+              ({ values, errors, handleChange, handleSubmit, handleReset, dirty, touched, isSubmitting }) => (
                 <form onSubmit={handleSubmit}>
-                  
-                 
+
+
                   <input type="text" id="name" placeholder='Jamila' className='register-input' value={values.name} onChange={handleChange} />
 
-{
-  errors.name && touched.name &&(
-    <div className="input-feedback">
-    {errors.name}
-    </div>
-  )
-}
+                  {
+                    errors.name && touched.name && (
+                      <div className="input-feedback">
+                        {errors.name}
+                      </div>
+                    )
+                  }
 
-                
+
                   <input type="text" id="email" placeholder='camilacalalzada@mail.ru' className='register-input' value={values.email} onChange={handleChange} />
 
                   {
-  errors.email && touched.email &&(
-    <div className="input-feedback">
-    {errors.email}
-    </div>
-  )
-}
+                    errors.email && touched.email && (
+                      <div className="input-feedback">
+                        {errors.email}
+                      </div>
+                    )
+                  }
 
-                 <input type="text" id="password" placeholder='123456789' className='register-input' value={values.password} onChange={handleChange} />
-                 {
-  errors.password && touched.password &&(
-    <div className="input-feedback">
-    {errors.password}
-    </div>
-  )
-}
- 
-
-
-<div className="checkbox-input-register">
-
-  <input id='agree' type="checkbox" value={values.agree} onChange={handleChange} />
-
-  <label htmlFor='agree' className=''>Want to become an instructor?</label>
-</div>
+                  <input type="text" id="password" placeholder='123456789' className='register-input' value={values.password} onChange={handleChange} />
+                  {
+                    errors.password && touched.password && (
+                      <div className="input-feedback">
+                        {errors.password}
+                      </div>
+                    )
+                  }
 
 
-<button type='submit' className='blue-button' disabled={! dirty || isSubmitting}>
-  Register
-</button>
+
+                  <div className="checkbox-input-register">
+
+                    <input id='agree' type="checkbox" value={values.agree} onChange={handleChange} />
+
+                    <label htmlFor='agree' className=''>Want to become an instructor?</label>
+                  </div>
+
+
+                  <button type='submit' className='blue-button' disabled={!dirty || isSubmitting}>
+                    Register
+                  </button>
 
 
                 </form>
@@ -131,20 +131,20 @@ resetForm();
 
 
 
-           </Formik>
+          </Formik>
 
 
 
 
-</div>
+        </div>
 
 
 
 
 
- 
 
- 
+
+
 
       </div>
     </div>

@@ -5,7 +5,7 @@ import {AiFillStar}  from "react-icons/ai";
 import './About2.css'
 const About2 = ({meqaleKartininShekli,kartinBasligi,kartinMetni}) => {
   return (
-    <div className='about2 col-12 col-md-6 col-lg-2'>
+    <div className='about2  '>
  <img src={meqaleKartininShekli} className=" about2-img-top " alt="..." />
     <div className="card-body2">
       <h5 className="card-title">{kartinBasligi}</h5>

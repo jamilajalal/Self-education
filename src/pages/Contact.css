@@ -1,6 +1,6 @@
 .contact{
     max-width: 1530px;
-   height: 150vh;
+   height: 180vh;
 }
 
 
@@ -38,14 +38,24 @@ color: #333;
 .contact-main-section{
     display: flex;
     padding: 30px 60px;
+ 
 }
 
 .contact-main-left-section{
 flex-basis: 50%;
+
 }
 
 .contact-main-right-section{
     flex: 1;
+ 
+}
+.contact-right-2{
+
+    width: 500px;
+}
+.contact-iframe{
+    width: 450px;
 }
 
 .contact-input input{
@@ -53,13 +63,18 @@ flex-basis: 50%;
     flex-direction: column;
 border-radius: 5px;
 border: 1px solid #a2a3a5;
-width: 530px;
+width: 450px;
 height: 40px;
 margin-bottom: 20px;
 }
-.textarea{
+.textarea textarea{
     display: flex;
     flex-direction: column;
+ 
+    width:450px;
+    height:154px;
+    border:1px solid #a2a3a5;
+
 }
 
 .contact-main-right-section button{
@@ -82,3 +97,32 @@ transition: all .8s ease;
     .contact-input label{
 font-size: 15px;
     }
+
+@media(max-width:992px){
+    .contact{
+        height: 260vh;
+    }
+    .contact-main-section{
+padding: 30px 10px;
+    }
+}
+@media(max-width:768px){
+    .contact{
+        height: 280vh;
+    }
+} 
+@media(max-width:570px){
+    .contact-input input{
+width: 350px;
+    }
+    .contact-iframe{
+        width: 350px;
+    }
+   iframe{
+    width: 350px;
+   }
+.textarea textarea{
+    width: 350px;
+}
+    
+}

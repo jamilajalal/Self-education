@@ -2,15 +2,16 @@ import React from 'react'
 import './EventListProps.css'
 const EventListProps = ({ EventImg, Eventh4, Eventp,Eventa1,Eventa2,Eventa3,Eventicon1,Eventicon2,Eventicon3 }) => {
     return (
-        <div className='eventlistprops' >
-            <div className="eventlistimg">
+        <div className="eventlist-con container">
+        <div className='eventlistprops row' >
+            <div className="eventlistimg col-xl-5 pr15-xl pr0">
                 <h1>28 <br /> DECEMBER</h1>
                 <img src={EventImg} alt="" width={530} height={340} />
             </div>
 
 
 
-          <div className="event-h4-p-a">
+          <div className="event-h4-p-a col-xl-7 pl15-xl p10">
             <h4 style={{fontSize:"20px"}}>{Eventh4}</h4>
             <p style={{color:"#7E7E7E"}}> {Eventp} </p>
 
@@ -28,6 +29,7 @@ const EventListProps = ({ EventImg, Eventh4, Eventp,Eventa1,Eventa2,Eventa3,Even
 
 
 
+        </div>
         </div>
     )
 }

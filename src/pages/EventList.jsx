@@ -26,9 +26,9 @@ const scrollToSection1=(elementRef)=>{
     <div ref={eventlist} className='eventlist'>
 
 
-<div className="eventlist-photo">
+<div className="eventlist-photo ">
 
-<div className="eventlist-h1-p">
+<div className="eventlist-h1-p ">
           <h1>EVENT</h1>
           <p>Home / Event</p>
         </div>

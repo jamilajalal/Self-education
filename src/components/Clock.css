@@ -14,3 +14,13 @@
     background: linear-gradient(#2c63b6,#d50cc4);
     padding: 15px;
 }
+@media(max-width:992px){
+    .timer-container{
+        width: 500px;
+    }
+}
+@media(max-width:500px){
+    .timer-container{
+        width: 350px;
+    }
+}

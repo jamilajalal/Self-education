@@ -1,6 +1,6 @@
 .instructors{
-    width: 1530px;
-    height: 100%;
+    max-width: 1530px;
+    height: 320vh;
 }
 .instructors-photo{
     background: linear-gradient(120deg,rgba(28, 73, 186, 0.7),rgba(223, 8, 159, 0.7)), url('../assets//images//photo1.jpg');
@@ -18,9 +18,12 @@
 }
 .ins-popular{
  padding-top: 60px;
-    width: 1530px;
+    max-width: 1530px;
     height: 70vh;
     background-color:#F9FAFC
+  
+
+
 }
 .popular-h3{
     display: flex;
@@ -168,3 +171,34 @@ flex-direction: column;
     list-style-type: none;
     border-radius: 25px;
 }
+
+
+@media(max-width:1400px){
+    .instructors{
+        height:330vh ;
+}
+
+}
+@media(max-width:1200px){
+    .instructors{
+        height:450vh ;
+}
+.page-link{
+ position: relative;
+ bottom: 140px;
+}
+
+}
+@media(max-width:992px){
+    .instructors{
+        height:580vh ;
+}
+
+}
+@media(max-width:768px){
+    .instructors{
+        height:710vh ;
+}
+
+}
+

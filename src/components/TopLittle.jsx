@@ -8,6 +8,7 @@ const TopLittle = ({kartinBasligi,meqaleKartininShekli,kartinMetni}) => {
 
 
 const taginDivininUnvaniRef=useRef()
+
 const openMenu=(e)=>{
   const acilanElement=e.target
   if(acilanElement.classList.contains('umumi')){
@@ -27,8 +28,8 @@ const closeMenu=(e)=>{
    
 
     
-    <div  onMouseEnter={openMenu}  onMouseLeave={closeMenu} className=" umumi card  " >
-        <div className="tagIn  " ref={taginDivininUnvaniRef}>
+    <div  onMouseEnter={openMenu}  onMouseLeave={closeMenu} className=" umumi card  col-12 col-md-6 col-lg-2 " >
+        <div ref={taginDivininUnvaniRef} className="tagIn  " >
 
 
         <div className="tag">Top Seller</div>

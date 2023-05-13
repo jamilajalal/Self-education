@@ -1,6 +1,6 @@
 .instructorsingle{
-    width: 1530px;
-    height: 100%;
+    max-width: 1530px;
+    height: 200vh;
 }
 .instructorsingle-photo{
     background: linear-gradient(120deg,rgba(28, 73, 186, 0.7),rgba(223, 8, 159, 0.7)), url('../assets//images//photo1.jpg');
@@ -63,4 +63,24 @@ bottom: 70px;
     border: 1px solid #b9b6b6;
     padding: 30px;
   margin-top: 20px;
+}
+@media(max-width:1040px){
+    .instructorsingle{
+        height: 220vh;
+    }
+}
+@media(max-width:760px){
+    .instructorsingle{
+        height: 250vh;
+    }
+}
+@media(max-width:662px){
+    .instructorsingle{
+        height: 280vh;
+    }
+}
+@media(max-width:610px){
+    .instruc-contact,.total{
+   width: 200px;
+    }
 }

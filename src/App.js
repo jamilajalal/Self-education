@@ -3,13 +3,12 @@ import { useState,useEffect,} from 'react'
 import DotLoader from "react-spinners/DotLoader";
 import './App.css';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 import Contact from './pages/Contact'
 import About from './pages/About'
-
+import Footer from './components/Footer';
 import EventList from './pages/EventList';
 import Instructors from './pages/Instructors';
 import InstructorSingle from './pages/InstructorSingle';

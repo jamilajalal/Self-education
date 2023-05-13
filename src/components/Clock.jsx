@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import './Clock.css';
 const Clock = ({timerDays,timerHours,timerMinutes,timerSeconds}) => {
   return (
-    <div>
+ 
 <div className="timer-container">
 
 <div className="timer">
@@ -40,7 +40,7 @@ const Clock = ({timerDays,timerHours,timerMinutes,timerSeconds}) => {
 </div>
 
      
-    </div>
+ 
   )
 }
 

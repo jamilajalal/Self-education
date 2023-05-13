@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useRef } from 'react';
 import headerLogo from '../assets/images/header-logo.png'
 import { AiOutlineUser } from "react-icons/ai";
 import { BsSearch } from "react-icons/bs"
@@ -9,9 +9,12 @@ import Login from './Login'
 import Search from './Search'
 import Register from './Register';
 import { Link } from 'react-router-dom'
+import {AiOutlineBars} from 'react-icons/ai'
+import {GiCrossedBones} from 'react-icons/gi'
 
+// import BarsMenu from './BarsMenu'
 
-const Navbar = () => {
+const Navbar = (openBrasMenu) => {
 
   const [color, setColor] = useState(false)
 
@@ -41,15 +44,72 @@ const Navbar = () => {
   const [open1, setOpen1] = useState(false)
 
 
+
+
+  const overlayDivininUnvaniRef=useRef()
+
+
+const openOverlayMenu=(e) =>{
+
+ const kliklenenElement=e.target
+
+
+ if(kliklenenElement.classList.contains('bars-icon')){
+  overlayDivininUnvaniRef.current.classList.add('aktif')
+
+ }
+}
+const closeOverlayMenu=(e)=>{
+  const kliklenenElement=e.target
+
+
+  if(kliklenenElement.classList.contains('gicross-icon')){
+   overlayDivininUnvaniRef.current.classList.remove('aktif')
+ 
+  }
+}
+
   return (
     <>
+
+<div ref={overlayDivininUnvaniRef} className="overlay  ">
+
+<GiCrossedBones  className=' gicross-icon' onClick={closeOverlayMenu}/>
+
+<div className="nav-links">
+
+<Link to="/">Home</Link>
+<Link to="/about">About</Link>
+<Link to="/events">Events</Link>
+<Link to="/courses">Courses</Link>
+<Link to="/contact">Contact</Link>
+
+
+</div>
+
+
+
+</div>
+
+
+
 
       <nav className='navbar navbar-expand-lg bg-body-tertiary'>
         <div className={color ? "container-fluid fluid2 fixed" : "container-fluid fluid2"}>
           <a style={{ margin: '15px 37px 0 0', padding: '0px' }} className="navbar-brand" href="#"><img src={headerLogo} alt="" /><span style={{ borderRight: '1px solid #aaa', margin: '10px 0 0', padding: '5px 15px', fontSize: '22px' }}>EDUMY</span></a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
+          <button style={{border:"transparent"}} onClick={ openOverlayMenu} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <AiOutlineBars className='bars-icon' style={{marginRight:"10px",borderRight:"1px solid #aaa"}}/>
+          {/* </button>
+          <button onClick={ openOverlayMenu} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> */}
+          <a onClick={() => {
+                setOpenSearch(true);
+              }}
+              className='BsSearch ' style={{ fontSize: '22px',color:"#fff"}} href="#"><BsSearch /></a>
+              {openSearch && <Search closeSearchMenu={setOpenSearch} />}
           </button>
+        
+        
+
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <div className="ul">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -145,11 +205,14 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
+  
 
 
-
+          
 
             <div className="icon">
+
+           
 
               <a onClick={() => {
                 setOpenLogin(true);
@@ -173,9 +236,12 @@ const Navbar = () => {
               {openSearch && <Search closeSearchMenu={setOpenSearch} />}
 
 
+         
 
             </div>
+        
 
+       
 
           </div>
         </div>

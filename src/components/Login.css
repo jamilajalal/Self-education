@@ -139,3 +139,8 @@ margin: 30px;
 text-decoration: none;
 color: #fff;
 }
+.login-input{
+        width: 418px;
+        height:50px;
+        margin-bottom: 10px;
+}

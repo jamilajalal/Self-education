@@ -1,45 +1,60 @@
 .newsletter{
-    width: 1530px;
+   max-width: 1530px;
     height: 50vh;
-  position: relative;
-  top: 220px;
-  padding:  70px;
+  padding: 30px 70px 70px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  z-index: 3;
-
+  text-align: center;
+align-items: center;
+background-color:#F9FAFC;
 
 }
 .inputbutton{
     display: flex;
     padding-top: 50px;
+    /* margin-left: 100px; */
+    max-width: 1430px;
+  
 }
 .inputbutton input{
-    padding: 5px 40px;
-position: relative;
-right: 30px;
+    padding: 10px 60px;
+
 border-radius: 5px;
 border:0.5px solid #dfd8d8
 }
 .inputbutton button{
-    padding:0 10px;
+
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
     background-color:#2441e7;
     color: #fff;
     border: transparent ;
     font-size: 12px;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
+
+
+
 .inputbutton button:hover{
     border:1px solid #2441e7;
     background-color: #fff;
     color:#2441e7 ;
     transition: 0.7s ease;
 }
-@media(max-width:1130px){
-    .newsletter{
-        top:80px;
-        padding: 50px;
+.newsletter-h1-p {
+    max-width: 630px;
+    height: 71px;
+    margin: 0 0 0 60px;
+}
+
+@media(max-width:700p){
+    .inputbutton {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
     }
+}
+.interbutton-button{
+    margin-top: 20px;
 }

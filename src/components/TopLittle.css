@@ -45,3 +45,18 @@ transition: transform .7s ease;
 .aktiv{
     transform: scale(1);
 }
+@media(max-width:1220px){
+    .umumi.card {
+        width:200px
+    }
+}
+@media(max-width:1020px){
+    .umumi.card {
+        width:300px
+    }
+}
+@media(max-width:856px){
+    .umumi.card {
+        width:350px
+    }
+}

@@ -102,9 +102,10 @@ const scrollToSection1=(elementRef)=>{
 
 
 <div className="ux-ui container">
-<div className="ux-ui-1">
+  <div className="ux-ui-ro row ">
+<div className="ux-ui-1 col-lg-8 col-xl-9 ">
   <h4>UX/UI Design Conference</h4>
-  <h1>28 <br /> DECEMBER</h1>
+
   <img src={single1} alt="" />
   <Clock timerDays={timerDays} timerHours={timerHours} timerMinutes={timerMinutes} timerSeconds={timerSeconds}/>
 
@@ -141,15 +142,15 @@ const scrollToSection1=(elementRef)=>{
 
   </div>
 
-<div className="event-participants">
+<div className="event-participants container">
+  
 <h4>Event Participants</h4>
 
-
-<div className="event-participants-props">
+<div className="event-participants-props row ">
 <ParticipantsProps participantsimg={peoplephoto1} participantsh4="Andrew Williams" participantsp="Web Design, Photoshop"/>
-<ParticipantsProps participantsimg={peoplephoto2} participantsh4="Chris Park" participantsp="CSS, HTML"/>
+<ParticipantsProps  participantsimg={peoplephoto2} participantsh4="Chris Park" participantsp="CSS, HTML"/>
 <ParticipantsProps participantsimg={peoplephoto3} participantsh4="Krisztina Szer" participantsp="User Experience Design"/>
-<ParticipantsProps participantsimg={peoplephoto4} participantsh4="Kristen Pala" participantsp="Web Design, PSD to HTML"/>
+<ParticipantsProps  participantsimg={peoplephoto4} participantsh4="Kristen Pala" participantsp="Web Design, PSD to HTML"/>
 
 </div>
 </div>
@@ -250,7 +251,8 @@ const scrollToSection1=(elementRef)=>{
 
 
 
-<div className="ux-ui-2">
+<div className="ux-ui-2 col-lg-4 col-xl-3 pl10 pr10 ">
+  <div className="ux-ui-2-big">
 
 <div className="event-details">
 <h4>Event Details</h4>
@@ -265,7 +267,7 @@ const scrollToSection1=(elementRef)=>{
 
 <h4>Event Details</h4>
 
-<iframe width="250" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=baku+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">measure area map</a></iframe>
+<iframe  height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=baku+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">measure area map</a></iframe>
 
 <a href="#"> <BsTelephone/>1-896-567-23497</a>
 <a href="#"> <AiOutlineMail/>event@edumy.com</a>
@@ -297,12 +299,13 @@ const scrollToSection1=(elementRef)=>{
 
 
 
-
+</div>
 </div>
 
 <div onClick={()=> scrollToSection1(eventlistsingle)} className="arrow">
 
 <AiOutlineArrowUp/>
+</div>
 </div>
     </div>
 

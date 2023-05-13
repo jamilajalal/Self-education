@@ -91,3 +91,8 @@ font-size: 35px;
 .about22{
     display: flex;
 }
+@media(max-width:768px){
+    .value-story{
+        padding: 50px 30px;
+    }
+}

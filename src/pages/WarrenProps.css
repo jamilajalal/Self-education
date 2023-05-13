@@ -40,3 +40,16 @@
 .warren-button-span span1{
  color:rgb(255, 0, 0)
 }
+/* .warrenimg img{
+    width: 50px;
+} */
+@media(max-width:1300px){
+     .warrenimg img{
+    width: 80px;
+} 
+}
+@media(max-width:500px){
+    .warrenh4{
+        max-width: 270px;
+    }
+}

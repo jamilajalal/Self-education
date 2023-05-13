@@ -1,5 +1,5 @@
 .eventlist{
-   width: 1530px;
+   max-width: 1530px;
    height: 150%; 
    overflow-x: hidden;
 

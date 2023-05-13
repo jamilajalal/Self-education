@@ -22,10 +22,6 @@ z-index: 100;
 transition: all .5s ease;
 }
 
-
-
-
-
 .container-fluid.fluid2.fixed{
 background-color:#fff;
 transition: .5s ease-in-out;
@@ -112,329 +108,7 @@ padding-right: 30px;
 display: none;
     }
 }
-@media(max-width:991px){
 
-}
-/* .cross-icon{
-    font-size: 30px;
-    color: #000;
-}
-.search-icon{
-    font-size: 20px;
-
-}
-.search{
-    background-color:rgba(0,0,0,.8);
-    height: 100vh;
-    position: fixed;
-    width: 0;
-    z-index: 4;
-    top: 0;
-    left: 0;
-   transition: width  1.7s ease;
-   overflow-x: hidden;
-  
-}
-.search .input-search{
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-.input-search input{
-    padding: 20px 80px;
-    border-radius: 5px;
-    border: transparent;
-    
-}
-.input-search input::placeholder{
-   position: relative;
-   right: 50px;
-}
-
-.search-icon{
-    position: relative;
-    right:30px
-}
-.cross-icon{
-    color: #aaa;
-    position: absolute;
-    right: 45px;
-    top: 50px;
-}
-.cross-icon:hover{
-    color: #fff;
-}
-.aktiv{
-    width: 100%;
-}
- */
-
-
-/* .login-navbar{
-    position: relative;
-   top: -7%;
-}
-.login-navbar a{
-
-   padding: 20px 76px;
-   text-decoration: none;
- color: #000;
- background-color:#fff;
-}
-
-.login-h1-p h1{
-    font-size: 20px;
-}
-.login-h1-p span{
-color: blue;
-}
-.login-h1-p p{
-    color:#6F7074;
-}
-.login-register{
-    background-color:#fff;
-    width: 400px;
-    height: 400px;
-    position:fixed;
-    z-index: 3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    top: 25%;
-    left: 50%;
-
-
-}
-.three-input input{
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    margin: 10px;
-    padding: 5px;
-    border: 1px solid #caccd3;
-}
-.checkbox-input{
-    display: flex;
-    position: relative;
-    left: 10px;
-
-}
-.checkbox-input a{
-    padding-left: 150px;
-    color: #C75533;
-    font-size: 14px;
-}
-.text-input input{
-    position: relative;
-    left: 10px;
-    width: 400px;
-    padding: 10px;
-    background-color: #192675;
-    border: transparent;
-}
-
-
-.text-input .text-span{
-    position: relative;
-    z-index: 2;
-    top: 30px;
-    left: 180px;
-    color: #fff;
-}
-
-.text-input .login-color{
-    position: relative;
-    z-index: 2;
-    top: 30px;
-    left: 180px;
-    color:#192675;
-}
-
-
-
-.login-footer{
-    display: flex;
-}
-.login-footer1 input{
-    background-color: #3B5998;
-    border: transparent;
-}
-.login-footer2 input{
-    background-color: #Ea4335;
-    border: transparent;
-}
-
-.login-footer input{
-    margin:30px  7px;
-  padding-top: 10px;
-  
-}
-.login-footer span{
-    color: #fff;
-position: relative;
-top: 60px;
-left: 30px;
-}
-.login-footer1 .span1 a, .login-footer2 .span2 a{
-margin: 30px;
-text-decoration: none;
-color: #fff;
-}
-.gicross{
-position: absolute;
-z-index: 4;
-left: 960px;
-top: 80px;
-padding: 10px;
-border-radius: 50%;
-background-color: #3452FF;
-color: #fff;
-}
-.login-menu {
-    display: none;
-}
-.login-aktiv{
-    display: flex;
-} */
-
-
-
-
-/* .register{
-    background-color:#fff;
-    width: 400px;
-    height: 800px;
-    position:fixed;
-    z-index: 3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    top: 15%;
-    left: 50%;
-}
-.register-navbar a{
-    padding: 20px 76px;
-   
-   text-decoration: none;
- color: #000;
- background-color:#fff;
-}
-.register-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    top: -160px;
-    background-color: #fff;
-}
-.five-input input{
-    display: flex;
-    flex-direction: column;
-    margin-left: 25px;
-    width:350px ;
-    padding: 5px;
-    margin-top: 10px;
-    border: 1px solid #dedede;
-  border-radius: 3px;
-}
-.register-h1-p h1{
-    
-    font-size: 24px;
-    color: #0A0A0A;
-
-}
-.register-h1-p p{
-    font-size: 15px;
-    color: #6F7074;
-
-
-}
-.checkbox-input-register{
-    display: flex;
-    align-items: center;
-    position: relative;
-    right: 40px;
-    top: 10px;
-  
-}
-.checkbox-input-register input{
-   width: 100px;
-   
-}
-
-.blue-input input{
-    width: 350px;
-    background-color: #192675;
-    border: transparent;
-    padding: 8px;
-    border-radius: 3px;
-}
-.blue-input a{
-position: relative;
-top: 30px;
-color: #fff;
-text-decoration: none;font-size: 19px;
-}
-.footer-register{
-    display: flex;
-}
-.footer-register span{
-    position: relative;
-    top: 25px;
-}
-.footer-register input{
-    border: transparent;
-    border-radius: 3px;
-    padding: 5px;
-}
-.footer-register1 input{
-    background-color: #3B5998;
-  
-}
-.footer-register2 input{
-    background-color: #Ea4335;
-
-} 
-.footer-register span,.footer-register a{
-    color: #fff;
-    text-decoration: none;
-    margin: 10px;
-    font-size:15px ;
-}
-
-.gicross{
-    position: absolute;
-    z-index: 4;
-    left: 960px;
-    top: 80px;
-    padding: 10px;
-    border-radius: 50%;
-    background-color: #3452FF;
-    color: #fff;
-    position: fixed;
-    }
-    .register-menu{
-        display: none;
-    }
-    .register-aktiv{
-        display: flex;
-    } */
-/* 
-.dropdown-menu-1{
-    background-color: #fff;
-    padding:40px  70px;
-  
-    color: #000;
-    position: absolute;
-    z-index: 5;
-    display: flex;
-
-} */
 
 .dropdown-menu{
     display: flex;
@@ -468,4 +142,57 @@ text-decoration: none;font-size: 19px;
     text-decoration: none;
     display: flex;
     flex-direction: column;
+}
+.overlay a{
+    color: #aaa;
+    text-decoration: none;
+    font-size: 40px;
+    transition: color .3s ease;
+}
+.overlay a:hover{
+    color: #fff;
+  
+}
+.gicross-icon{
+    color: #ffffff;
+    font-size: 40px;
+    position: absolute;
+    right: 45px;
+    top: 65px;
+}
+.overlay{
+    height: 100vh;
+    background-color: rgba(0, 0, 0,.8);
+    position: fixed;
+    width: 0;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    transition: width 1.7s ease;
+    overflow-x: hidden;
+}
+.overlay .nav-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.aktif{
+  width: 100%;
+}
+.bars-icon{
+    color: #fff;
+    font-size: 40px;
+
+}
+.searchicon{
+    color: #ffffff;
+   
+}
+@media(max-width:991px){
+    .container-fluid.fluid2{
+        padding:0 20px;
+    } 
+
 }

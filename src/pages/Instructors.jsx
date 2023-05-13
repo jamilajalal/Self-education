@@ -1,10 +1,11 @@
-import React,{useRef} from 'react'
+import React,{useRef,useState} from 'react'
 import './Instructors.css';
 import About2 from './About2';
 import melumatlar from '../about.json'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+import { Pagination } from "swiper";
 import { Navigation } from "swiper";
 import {BiSearchAlt} from 'react-icons/bi'
 import {GiCrossedBones} from 'react-icons/gi'
@@ -71,39 +72,75 @@ const handleClick=()=>{
 </div>
 
 
-<div className=" row swiper ">
+<>   
 <Swiper
-        rewind={true}
-        slidesPerView={3}
+      rewind={true}
+        slidesPerView  ={3}
         spaceBetween={30}
-     
+        freeMode={true}
+        pagination={{
+          clickable: true,
+        }}
         navigation={true}
-        modules={[Navigation]}
-        className="mySwiper row"
+        modules={[Navigation, Pagination]}
+        className="mySwiper "
       >
         {  melumatlar.map(melumat =>(
 
-        <SwiperSlide><About2  kartinBasligi={melumat.meqaleninBasligi} meqaleKartininShekli={melumat.meqaleninShekli} kartinMetni={melumat.meqaleninMetni}/></SwiperSlide>
-
+         <SwiperSlide><About2  kartinBasligi={melumat.meqaleninBasligi} meqaleKartininShekli={melumat.meqaleninShekli} kartinMetni={melumat.meqaleninMetni}/></SwiperSlide>
+  
         ))
 }
+
       </Swiper>
-      </div>
+      </>
+
+      {/* <Swiper
+        slidesPerView={1}
+        spaceBetween={10}
+        pagination={{
+          clickable: true,
+        }}
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 5,
+            spaceBetween: 50,
+          },
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide>Slide 2</SwiperSlide>
+        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide>Slide 5</SwiperSlide>
+      
+      </Swiper>
+     */}
 
 
 </div>
 
+<div className="ins-cards-con container"> 
+<div className="ins-cards row">
 
-<div className="ins-cards">
+<div className="ins-cards-left col-md-12 col-lg-8 ">
 
-<div className="ins-cards-left">
+<div className="cards-nav row">
 
-<div className="cards-nav">
-
-<div className="card-p">
+<div className="card-p col-sm-5 col-lg-5 col-xl-6">
   <p>85 Instructors</p>
 </div>
-<div className="card-input">
+<div className="card-input col-sm-7 col-lg-7 col-xl-6">
   <input type="text" placeholder='Search our instructors' />
   
 <BiSearchAlt className='card-icon'/>
@@ -111,20 +148,22 @@ const handleClick=()=>{
 </div>
 
 </div>
-<div className="card-section">
-<div className="card-first-section">
+
+
+<div className="card-section row  ">
+<div className="card-first-section col-12 col-md-6  col-lg-4 ">
 <About2 className="about5" kartinBasligi="Andrew Williams" meqaleKartininShekli={peoplephoto1}  kartinMetni="Web Design, Photoshop"/>
 <About2  kartinBasligi="Krisztina Szer" meqaleKartininShekli={peoplephoto2}  kartinMetni="User Experience Design"/>
 <About2  kartinBasligi="Andrew Williams" meqaleKartininShekli={peoplephoto3}  kartinMetni="Web Design, Photoshop"/>
 </div>
-<div className="card-second-section">
+<div className="card-second-section col-12 col-md-6  col-lg-4 ">
 
 <About2  kartinBasligi="Krisztina Szer" meqaleKartininShekli={peoplephoto3}  kartinMetni="User Experience Design"/>
 <About2  kartinBasligi="Anna Richard" meqaleKartininShekli={peoplephoto3}  kartinMetni="Web Design, Photoshop"/>
 <About2  kartinBasligi="Andrew Williams" meqaleKartininShekli={peoplephoto1}  kartinMetni="Web Design, Photoshop"/>
 
 </div>
-<div className="card-third-section">
+<div className="card-third-section col-12 col-md-6  col-lg-4 ">
 
 <About2  kartinBasligi="Andrew Williams" meqaleKartininShekli={peoplephoto2}  kartinMetni="Web Design, Photoshop"/>
 <About2  kartinBasligi="Krisztina Szer" meqaleKartininShekli={peoplephoto1}  kartinMetni="User Experience Design"/>
@@ -134,7 +173,7 @@ const handleClick=()=>{
 </div>
 
 </div>
-<div className="ins-cards-right">
+<div className="ins-cards-right col-lg-4 col-xl-3">
 <div className="selected">
 
   <a href="#">Selected Filters <span ><IoIosArrowDropdown/></span> </a>
@@ -269,6 +308,7 @@ const handleClick=()=>{
 
 
 
+</div>
 </div>
 
 

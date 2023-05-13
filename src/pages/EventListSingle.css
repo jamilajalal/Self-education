@@ -1,6 +1,6 @@
 .eventlistsingle{
-    width: 1530px;
-    height: 100%;
+   max-width: 1530px;
+    height: 500vh;
 }
 .eventsingle-photo{
     background: linear-gradient(120deg,rgba(28, 73, 186, 0.7),rgba(223, 8, 159, 0.7)), url('../assets//images//photo1.jpg');
@@ -21,12 +21,24 @@
     display: flex;
     padding-top: 50px;
 }
+.ux-ui-ro{
+    display: flex;
+}
 .ux-ui-1{
     flex-basis: 60%;
+    
 }
+.ux-ui-1 img{
+  max-width: 900px;
+}
+
 .ux-ui-2{
     flex: 1;
     padding-left: 50px;
+   
+}
+.ux-ui-2-big{
+    width: 330px;
 }
 .ux-ui-1 h1{
     color: #fff;
@@ -82,7 +94,7 @@ justify-content: center;
     display: flex;
   
 
-    width: 982px;
+    max-width: 982px;
     height: 48px;
     font-size: 20px;
   
@@ -130,7 +142,7 @@ justify-content: center;
     cursor: pointer;
 }
 .event-participants{
-    width: 960px;
+    max-width: 960px;
     height: 280px;
 padding-top: 30px;
    
@@ -140,7 +152,7 @@ color: #232222;
 }
 .event-participants-props{
     display: flex;
-    justify-content: space-evenly;
+    
 }
 .warren{
     width: 960px;
@@ -152,14 +164,14 @@ color: #232222;
 }
 .warren-left{
     flex-basis: 15%;
-    background-color: red;
+    
 }
 .warren-left img{
     padding-top: 10px;
 }
 .warren-right{
     flex: 1;
-    background-color: yellow;
+  
 }
 .warren-main{
     padding: 150px;
@@ -247,3 +259,108 @@ color: #fff;
     border: 1px solid #2441E7;
     transition: all .3s ease;
 }
+.event-participants.container{
+    margin: 0;
+}
+
+
+@media(max-width:1300px){
+    .ux-ui-1 img{
+        width: 700px;
+    }
+}
+@media(max-width:1100px){
+    .ux-ui-1 img{
+        width: 600px;
+    }
+}
+@media(max-width:1020px){
+    .rate{
+        width:700px
+    }
+}
+@media(max-width:992px){
+    .eventlistsingle{
+        height: 1000vh;
+    }
+    .event-description,.event-content{
+        width: 480px;
+    }
+    .warren{
+        width:700px;
+      margin-top:180px
+    }
+}
+@media(max-width:768px){
+    .warren{
+        width:500px;
+        height: 1020px;
+      margin-top:180px
+    }
+    .rate{
+        width:450px;
+        margin-top:300px
+    }
+    .warren{
+        height: 180vh;
+     
+    }
+    .rate-input1 input{
+width: 360px;
+    }
+    .ux-ui-2{
+        margin-top: 30px;
+    }
+    }
+
+@media(max-width:720px){
+    .ux-ui-1 img{
+        width: 400px;
+    }
+}
+@media(max-width:576px){
+    .event-participants-props{
+        display: flex;
+        flex-direction: column;
+   
+    }
+    .event-description,.event-content{
+        width: 360px;
+    }
+    .warren{
+        padding: 20px 10px;
+        width:350px;
+      margin-top:550px
+    }
+}
+@media(max-width:500px){
+    .ux-ui-1 img{
+        width: 350px;
+    }
+    .event-details-2 iframe{
+        width: 150px;
+    }
+   .event-content li{
+padding: 5px;
+   }
+   .rate{
+    width:350px;
+    padding: 10px;
+   }
+   .rate-input1 input{
+    width:300px
+   }
+   .event-participants-props{
+    max-width:350px;
+    margin: 0;
+   }
+   .ux-ui-1{
+    width:350px;
+   }
+}
+
+
+
+
+     
+      
