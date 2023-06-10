@@ -19,6 +19,7 @@
 }
 .eventlist-h1-p h1{
     color: #fff;
+  
 }
 .eventProps{
     width: 1530px;
@@ -57,4 +58,14 @@ padding: 16px;
    background-color: blue;
     border-radius: 50px;
     color:#fff
+}
+@media(max-width:1200px){
+    .page-link{
+       margin-top:100px; 
+    } 
+}
+@media(max-width:500px){
+    .page-link{
+       width: 300px;
+    }
 }

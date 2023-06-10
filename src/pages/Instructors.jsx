@@ -342,7 +342,7 @@ const handleClick=()=>{
 </div>
 
 
-<div onClick={()=> scrollToSection1(instructors)} className="arrow">
+<div style={{width:"50px"}} onClick={()=> scrollToSection1(instructors)} className="arrow">
 
 <AiOutlineArrowUp/>
 </div>

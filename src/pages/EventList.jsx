@@ -81,7 +81,7 @@ const scrollToSection1=(elementRef)=>{
 </div>
 
 
-<div onClick={()=> scrollToSection1(eventlist)} className="arrow">
+<div style={{width:"50px"}} onClick={()=> scrollToSection1(eventlist)} className="arrow">
 
 <AiOutlineArrowUp/>
 </div>

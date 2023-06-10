@@ -15,13 +15,15 @@ background-color:transparent;
 .navbar.navbar-expand-lg.bg-body-tertiary{
 position: fixed;
 height: 87px;
-width: 100%;
+max-width: 1230px;
 top: 0;
 left: 0;
 z-index: 100;
 transition: all .5s ease;
 }
-
+.container-fluid.fluid2{
+    max-width: 1230px;
+}
 .container-fluid.fluid2.fixed{
 background-color:#fff;
 transition: .5s ease-in-out;

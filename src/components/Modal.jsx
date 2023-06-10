@@ -41,7 +41,7 @@ const Modal = ({closeModal}) => {
       <div className='modal-footer'>
         <h1>Subtotal: $57.70</h1>
         <div className="modal-btn">
-        <button className='btn btn-primary' >View Card</button>
+        <button style={{backgroundColor:"rgb(36, 66, 235)"}} >View Card</button>
         <button style={{backgroundColor:"rgb(227, 31, 195"}}>Checkout</button>
         </div>
       </div>

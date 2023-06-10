@@ -1,6 +1,6 @@
 .train{
     max-width: 1530px;
-    height: 40vh;
+    height: 45vh;
 background-color: #fff;
 position: relative;
 z-index:3;
@@ -28,6 +28,6 @@ padding:  15px;
     }
 @media(max-width:576px){
 .train{
-    height: 70vh;
+    height: 80vh;
 }
 }

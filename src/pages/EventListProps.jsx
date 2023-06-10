@@ -6,7 +6,7 @@ const EventListProps = ({ EventImg, Eventh4, Eventp,Eventa1,Eventa2,Eventa3,Even
         <div className='eventlistprops row' >
             <div className="eventlistimg col-xl-5 pr15-xl pr0">
                 <h1>28 <br /> DECEMBER</h1>
-                <img src={EventImg} alt="" width={530} height={340} />
+                <img src={EventImg} alt=""  />
             </div>
 
 

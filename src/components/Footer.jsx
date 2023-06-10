@@ -107,32 +107,10 @@ const Footer = () => {
 
 
 
-
-
-
-
-
-
 </div>
 
 
-
-
-
-
-
-
-
 </div>
-
-
-
-
-
-
-
-
-
 
 </div>
 
@@ -153,113 +131,9 @@ const Footer = () => {
 
 
 
-
-
-
-
-
-
 </div>
 
-
-
-
-
-
-
 </>
-
-//    <div className="footer container-fluid">
-
-// <div className="footer-first row"> 
-// <div className="div-umumi col-sm-6 col-md-4 col-md-3 col-lg-3">  
-//  <FooterProps footerh1="Contact" footera1="329 Queensberry Street, North" footera2="Melbourne" footera3="VIC 3051, Australia." footera4="123 456 7890" footera5="support@edumy.com"/>
-// <FooterProps footerh1="Company" footera1="About Us" footera2="Blog" footera3="Contact" footera4="Become a Teacher" />
-// <FooterProps footerh1="Programs" footera1="Nanodegree Plus" footera2="Veterans" footera3="Georgia" footera4="Self-Driving Car" />
-// <FooterProps footerh1="SUPPORT" footera1="Documentation" footera2="Forums" footera3="Language Packs" footera4="Release Status" />
- 
-
-/* <div className="footer-last ">
-  
-// <h4>Mobile</h4>
-
-
-
-// <div className="footer-last-1">
-
-// <div className="last1-a"><ImAppleinc/></div>
-
-// <div className="last1-a2-a3"> 
-// <div className="last1-a2">App Store</div>
-// <div className="last1-a3">Available now on the</div>
-// </div>
-
-// </div>
-// <div className="footer-last-1">
-
-// <div className="last1-a"><SlControlPlay/></div>
-
-// <div className="last1-a2-a3"> 
-// <div className="last1-a2">Google Play</div>
-// <div className="last1-a3">Get in on</div>
-// </div>
-
-// </div>
-
-
-
-
-// </div> */
-
-// </div>
-// </div>
-
-
-
-// <div className="footer-navbar container ">
-//    <div className="footer-navbar1 row">   
-//    <div className="footer-left1 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-//    <img src={footerLogo} alt="" />
-//    <h1>EDUMY</h1>
-//    </div>
-//    <div className="footer-left2 col-sm-8 col-md-5 col-lg-6 col-xl-6">
-//    <span><a href="#">Home</a></span>
-//    <span><a href="#">Privacy</a></span>
-//    <span><a href="#">Terms</a></span>
-//    <span><a href="#">Sitemap</a></span>
-//    <span><a href="#">Purchase</a></span>
-//    </div>
-
-
-// <div className="footer-navbar-right-side col-sm-12 col-md-4 col-lg-3 col-xl-4">
-//    <a href="#"><RiFacebookFill/></a>
-//    <a href="#"><BsTwitter/></a>
-//    <a href="#"><FiInstagram/></a>
-//    <a href="#"><ImPinterest/></a>
-//    <a href="#"><AiOutlineDribbble/></a>
-//    <a href="#"><AiOutlineGoogle/></a>
-// </div>
-
-// </div>
-// </div>
-
-
-
-// <div className="footer-son container"> 
-// <div className="footer-p row">
-//    <div className="footer-p-2 col-lg-6 offset-lg-3">  
-// <p  style={{fontSize:"13px",color:"#6F7074",textAlign:"center",backgroundColor:"#000",marginBottom:"0px",position:"sticky"}}>Copyright Edumy &copy; 2019. All Rights Reserved.</p>
-// </div>
-// </div>
-// </div>
-
-
-
-//    </div>
- 
-
-
-
   )
 }
 

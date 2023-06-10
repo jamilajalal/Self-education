@@ -4,7 +4,7 @@
   position: absolute;
   z-index: 2;
 height: 150px;
-width: 300px;
+width: 100px;
   color: #fff;
   justify-content: center;
  align-items: center;
@@ -44,7 +44,7 @@ width: 300px;
 }
 @media(max-width:778px){
     .details{
- width: 516px;
+ width: 336px;
  height: 268px;
 
     }

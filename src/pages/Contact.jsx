@@ -148,7 +148,7 @@ name='gondereninEmaili'
 
 </div>
 
-<div onClick={()=> scrollToSection1(contact)} className="arrow">
+<div style={{width:"50px"}} onClick={()=> scrollToSection1(contact)} className="arrow">
 
 <AiOutlineArrowUp/>
 </div>

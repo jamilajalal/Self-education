@@ -110,23 +110,7 @@ const Login = ({ closeLogin }) => {
                     )
 
 
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
                   </Formik>
@@ -139,62 +123,7 @@ const Login = ({ closeLogin }) => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-          {/* <div className="login-input">
-    <form action="">
-      <div className="three-input">
-  <input type="email" name="" id="" placeholder='Email Address'/>
-  <input type="password" name="" id="" placeholder='Password' />
-  </div>
-  <div className="checkbox-input">
-  <input type="checkbox" name="" id="" />
- 
-  <label style={{color:"#6F7074", fontSize:"15px",textAlign:"center",paddingTop:"5px"}} htmlFor="">Remember me</label>
-  <a href="#">Forgot Password?</a>
-  </div>
-  </form>
- 
- 
-  <div className="text-input"  >
-    <label htmlFor=""><span className='text-span'>Login </span > </label>
- <input  type="text" />
- </div>
-  </div> */}
-
-          {/* <div className="login-footer">
-            <div className="login-footer1">
-              <label htmlFor=""><span className='span1'><GrFacebookOption /><a href="#">Facebook</a> </span></label>
-              <input type="text" />
-            </div>
-            <div className="login-footer2">
-              <label htmlFor=""><span className='span2'><RiGoogleFill /><a href="#">Google</a> </span></label>
-              <input type="text" />
-            </div>
-          </div> */}
-
-
-
         </div>
-
-
-
-
-
-
-
-
-
 
 
       </div>

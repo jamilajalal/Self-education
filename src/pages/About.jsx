@@ -139,7 +139,7 @@ const scrollToSection1=(elementRef)=>{
 <NewsLetter/>
 
 
-<div onClick={()=> scrollToSection1(about)} className="arrow">
+<div style={{width:"50px"}} onClick={()=> scrollToSection1(about)} className="arrow">
 
 <AiOutlineArrowUp/>
 </div>

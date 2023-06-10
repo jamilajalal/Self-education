@@ -34,7 +34,7 @@ const [timerSeconds,setTimerSeconds]= useState();
 let interval;
 
 const startTimer=()=>{
-  const countDownDate= new Date ("June 7,2023").getTime();
+  const countDownDate= new Date ("June 7,2025").getTime();
   interval=setInterval(()=>{
     const now =new Date().getTime();
     const distance=countDownDate-now;
@@ -302,7 +302,7 @@ const scrollToSection1=(elementRef)=>{
 </div>
 </div>
 
-<div onClick={()=> scrollToSection1(eventlistsingle)} className="arrow">
+<div style={{width:"50px"}} onClick={()=> scrollToSection1(eventlistsingle)} className="arrow">
 
 <AiOutlineArrowUp/>
 </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../components/Header';
+import './Home.css';
 // import Categories from '../components/Categories';
 import Enhance from '../components/Enhance';
 import TopCourses from '../components/TopCourses';
@@ -12,7 +13,7 @@ import Footer from '../components/Footer';
 
 const Home = () => {
   return (
-    <div>
+    <div className='home'>
 
 <Header/>
     {/* <Categories/> */}

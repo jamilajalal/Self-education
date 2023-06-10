@@ -1,7 +1,7 @@
 .about{
     max-width: 1530px;
     height: 100%;
-   
+   overflow-x: hidden;
 }
 .about-photo{
     background: linear-gradient(120deg,rgba(28, 73, 186, 0.7),rgba(223, 8, 159, 0.7)), url('../assets//images//photo1.jpg');
@@ -91,8 +91,31 @@ font-size: 35px;
 .about22{
     display: flex;
 }
+@media(max-width:1042px){
+    .our-values-right-side.col-12.col-md-6.col-lg-2 img{
+        width: 420px;
+    }
+}
+@media(max-width:892px){
+    .our-values-right-side.col-12.col-md-6.col-lg-2 img{
+        width: 350px;
+    }
+}
 @media(max-width:768px){
     .value-story{
         padding: 50px 30px;
+    }
+    .our-values-right-side.col-12.col-md-6.col-lg-2 img{
+        width: 450px;
+    }
+}
+@media(max-width:500px){
+    .our-values-right-side.col-12.col-md-6.col-lg-2 img,.our-values-right-side.col-12.col-md-6.col-lg-2{
+        width: 300px;
+        padding: 0;
+    }
+ 
+    .value-story{
+        padding:30px 10px;
     }
 }

@@ -113,7 +113,7 @@ Web Designer"/>
 </div>
 
 
-<div onClick={()=> scrollToSection1(instructorsingle)} className="arrow">
+<div style={{width:"50px"}} onClick={()=> scrollToSection1(instructorsingle)} className="arrow">
 
 <AiOutlineArrowUp/>
 </div>

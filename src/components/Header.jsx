@@ -129,23 +129,22 @@ const scrollToSection1=(elementRef)=>{
 
 
 
-<div className="mouse-scroll">
-<div className="first1">
-<div className="second2">
+{/* <div className="mouse-scroll">
+<div className="first1"> */}
+{/* <div className="second2"> */}
 <div onClick={()=>scrollToSection(categories)} className="third3"><a href="#"><AiOutlineArrowDown/></a></div>
-</div>
-</div>
+{/* </div> */}
+{/* // </div> */}
 
 
-
-</div>
+ {/* </div>  */}
 
 <div ref={categories}  className="cate">
 <Categories/>
 </div>
 
 
-<div onClick={()=> scrollToSection1(header)} className="arrow">
+<div style={{width:"50px",color: "#fff"}} onClick={()=> scrollToSection1(header)} className="arrow">
 
 <AiOutlineArrowUp/>
 </div>

@@ -1,60 +1,48 @@
 .newsletter{
-   max-width: 1530px;
-    height: 50vh;
-  padding: 30px 70px 70px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+    max-width:1530px;
+    height: 70vh;
+    background-color: #F9FAFC;
+    
+}
+.newsletter-container{
+    max-width:1530px;
+    height: 70vh;
+    background-color: #F9FAFC;
+justify-content: center;
 align-items: center;
-background-color:#F9FAFC;
-
-}
-.inputbutton{
     display: flex;
-    padding-top: 50px;
-    /* margin-left: 100px; */
-    max-width: 1430px;
-  
-}
-.inputbutton input{
-    padding: 10px 60px;
+    flex-direction: column;
 
-border-radius: 5px;
-border:0.5px solid #dfd8d8
 }
-.inputbutton button{
-
-    width: 150px;
-    height: 50px;
-    margin-left: 10px;
-    background-color:#2441e7;
+.newsletter-container p{
+    font-size: 14px;
+    color: #6F7074;
+}
+.input-button-news{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.input-button-news input{
+ 
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid #e0e0e0;
+}
+.input-button-news button{
+    padding: 10px 15px;
+    background-color:#2441E7;
+    border: transparent;
+    border-radius: 5px;
     color: #fff;
-    border: transparent ;
-    font-size: 12px;
-    border-radius: 5px; 
+    font-size: 14px;
+
 }
 
-
-
-.inputbutton button:hover{
-    border:1px solid #2441e7;
-    background-color: #fff;
-    color:#2441e7 ;
-    transition: 0.7s ease;
-}
-.newsletter-h1-p {
-    max-width: 630px;
-    height: 71px;
-    margin: 0 0 0 60px;
-}
-
-@media(max-width:700p){
-    .inputbutton {
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-    }
-}
-.interbutton-button{
-    margin-top: 20px;
+@media(max-width:500px){
+    .input-button-news {
+        width: 360px;
+    }  
 }

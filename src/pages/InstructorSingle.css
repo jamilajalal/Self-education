@@ -1,6 +1,7 @@
 .instructorsingle{
     max-width: 1530px;
-    height: 200vh;
+    height: 240vh;
+    overflow-x: hidden;
 }
 .instructorsingle-photo{
     background: linear-gradient(120deg,rgba(28, 73, 186, 0.7),rgba(223, 8, 159, 0.7)), url('../assets//images//photo1.jpg');
@@ -66,21 +67,33 @@ bottom: 70px;
 }
 @media(max-width:1040px){
     .instructorsingle{
-        height: 220vh;
+        height: 260vh;
     }
 }
 @media(max-width:760px){
     .instructorsingle{
-        height: 250vh;
+        height: 300vh;
     }
 }
 @media(max-width:662px){
     .instructorsingle{
-        height: 280vh;
+        height: 350vh;
     }
 }
 @media(max-width:610px){
     .instruc-contact,.total{
    width: 200px;
     }
+}
+@media(max-width:500px){
+    .total{
+        width: 150px;
+    }
+    .instruc-contact{
+        width: 150px;
+        padding: 10px;
+    }
+    .instruc-main{
+        margin: 10px;
+      }
 }
