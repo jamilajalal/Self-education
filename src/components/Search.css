@@ -4,7 +4,6 @@
 }
 .search-icon{
     font-size: 20px;
-
 }
 .search{
     background-color:rgba(0,0,0,.8);
@@ -16,7 +15,6 @@
     left: 0;
    transition: width  1.7s ease;
    overflow-x: hidden;
-  
 }
 .search .input-search{
 
