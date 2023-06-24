@@ -171,14 +171,6 @@ flex-direction: column;
     list-style-type: none;
     border-radius: 25px;
 }
-
-
-/* @media(max-width:1400px){
-    .instructors{
-        height:330vh ;
-}
-
-} */
 @media(max-width:1200px){
     .instructors{
         height:550vh ;

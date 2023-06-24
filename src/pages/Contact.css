@@ -99,12 +99,6 @@ transition: all .8s ease;
     .contact-input label{
 font-size: 15px;
     }
-    /* @media(max-width:px){
-        .contact{
-            height: 260vh;
-        }
-    } */
-
 @media(max-width:992px){
     .contact{
         height: 320vh;
