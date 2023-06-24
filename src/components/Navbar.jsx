@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom'
 import {AiOutlineBars} from 'react-icons/ai'
 import {GiCrossedBones} from 'react-icons/gi'
 
-// import BarsMenu from './BarsMenu'
+import BarsMenu from './BarsMenu'
 
 const Navbar = (openBrasMenu) => {
 
@@ -98,8 +98,8 @@ const closeOverlayMenu=(e)=>{
           <a style={{ margin: '15px 37px 0 0', padding: '0px' }} className="navbar-brand" href="#"><img src={headerLogo} alt="" /><span style={{ borderRight: '1px solid #aaa', margin: '10px 0 0', padding: '5px 15px', fontSize: '22px' }}>EDUMY</span></a>
           <button style={{border:"transparent"}} onClick={ openOverlayMenu} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <AiOutlineBars className='bars-icon' style={{marginRight:"10px",borderRight:"1px solid #aaa"}}/>
-          {/* </button>
-          <button onClick={ openOverlayMenu} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> */}
+          </button>
+          <button onClick={ openOverlayMenu} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <a onClick={() => {
                 setOpenSearch(true);
               }}

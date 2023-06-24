@@ -1,5 +1,5 @@
 import React from 'react'
-// import {AiOutlineBars} from 'react-icons/ai'
+import {AiOutlineBars} from 'react-icons/ai'
 import './barsMenu.css'
 const barsMenu = () => {
   return (
