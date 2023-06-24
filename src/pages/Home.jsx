@@ -9,7 +9,7 @@ import Latest from '../components/Latest';
 import Enjoy from '../components/Enjoy';
 import Train from '../components/Train'
 import NewsLetter from '../components/NewsLetter'
-import Footer from '../components/Footer';
+
 
 const Home = () => {
   return (

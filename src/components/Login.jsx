@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import './Login.css'
 import { GiCrossedBones } from 'react-icons/gi'
-import { GrFacebookOption } from 'react-icons/gr'
-import { RiGoogleFill } from 'react-icons/ri'
 import Register from './Register'
 import { Formik } from 'formik'
 import * as Yup from 'yup'
@@ -10,7 +8,6 @@ import * as Yup from 'yup'
 const Login = ({ closeLogin }) => {
 
   const [openRegister, setOpenRegister] = useState(false)
-  const [openLogin, setOpenLogin] = useState(false)
   return (
     <>
 

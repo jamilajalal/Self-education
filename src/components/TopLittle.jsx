@@ -3,7 +3,6 @@ import './TopLittle.css'
 import {AiFillStar}  from "react-icons/ai";
 import {CgProfile} from "react-icons/cg";
 import {BiCommentDetail} from "react-icons/bi"
-import {BsSuitHeart} from "react-icons/bs"
 const TopLittle = ({kartinBasligi,meqaleKartininShekli,kartinMetni}) => {
 
 

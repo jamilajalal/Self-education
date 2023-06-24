@@ -1,4 +1,4 @@
-import React,{useRef,useState} from 'react'
+import React,{useRef} from 'react'
 import './Instructors.css';
 import About2 from './About2';
 import melumatlar from '../about.json'
@@ -8,7 +8,6 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper";
 import { Navigation } from "swiper";
 import {BiSearchAlt} from 'react-icons/bi'
-import {GiCrossedBones} from 'react-icons/gi'
 import {IoIosArrowDropdown} from 'react-icons/io'
 import {AiOutlinePlus} from 'react-icons/ai'
 import {AiOutlineArrowLeft} from 'react-icons/ai'

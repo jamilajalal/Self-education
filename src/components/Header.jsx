@@ -1,4 +1,4 @@
-import React ,{useRef,useState} from 'react'
+import React ,{useRef} from 'react'
 import './Header.css'
 import {AiOutlineArrowDown  } from "react-icons/ai";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -6,7 +6,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import {  Navigation } from "swiper";
-import MovingComponent from "react-moving-text";
 import Button from './Button'
 import Categories from './Categories';
 import {AiOutlineArrowUp} from 'react-icons/ai'

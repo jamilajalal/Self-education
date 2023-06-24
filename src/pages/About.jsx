@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef} from "react";
 
 import './About.css'
 import aboutPhoto from '../assets/images/aboutPhoto.jpg'

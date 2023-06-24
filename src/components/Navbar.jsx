@@ -7,7 +7,6 @@ import Modal from './Modal';
 import './Navbar.css'
 import Login from './Login'
 import Search from './Search'
-import Register from './Register';
 import { Link } from 'react-router-dom'
 import {AiOutlineBars} from 'react-icons/ai'
 import {GiCrossedBones} from 'react-icons/gi'
